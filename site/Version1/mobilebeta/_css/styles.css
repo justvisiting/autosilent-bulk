@@ -1,0 +1,16 @@
+/* (c) Copyright 2007 Garbrand van der Molen. All Rights Reserved. */
+
+#mb .small {
+	font-size: 12px;
+}
+
+#mb UL.box {
+	border-top: 1px solid #CCC;
+	padding: 0;
+	margin-bottom: 40px;
+}
+
+#mb UL.box LI {
+	list-style: none;
+	border-bottom: 1px solid #CCC;
+}

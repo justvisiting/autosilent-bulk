@@ -1,0 +1,125 @@
+﻿ /*
+   //Portuguese
+   Localizable.strings
+   SilentMe 
+   Created by god on 9/28/09.
+   Copyright 2009 __MyCompanyName__. All rights reserved.
+ */ 
+"Enable" = "Activar";
+"Auto Silent" = "Silencio Automático";
+"Manual Settings" = "Definições Manuais";
+"Automatic Mode" = "Modo Automático";
+"Manual Mode" = "Modo Manual";
+"Silent Now" = "Silenciar Agora";
+"Starts" = "Inicia";
+"Ends" = "Termina";
+"SilentProfile" = "Perfil Silencio";
+"Weekdays" = "Dias da Semana";
+"Weekday Nights" = "Noites de Dias de Semana";
+"Weekend Nights" = "Fins de Semana Noites";
+"SilentProfile" = "Perfil Silencio";
+"Weekends" = "Fins de Semana";
+"Calender Sync" = "Sinc Calendário";
+"Syncs with your Calendar" = "Sinc. com o seu Calendário";
+"SilentProfile Settings" = "Definições Perfil Silencio"; 
+//To be finalized. Entry not in other languages
+"iPhone Calender" = "Calendário do iPhone";
+"Currently Disabled" = "Presentemente Desactivado";
+"Phone not Silent" =  "Telefone nao Silenciado";
+"Phone in Silent Mode" = "Telefone em Modo Silencio";
+"Disable/Bypass Silent Switch" = "Cancelar Botão de Silencio do iPhone";
+"Enable iPhone Silent Switch" = "Activar Botão de Silencio do iPhone";
+"FixMessage" = "O botão de silencio do seu iPhone não está mais disponível. Se o botão se partiu em modo silencio, todos os sons serãorestabelecidos. Caso desejado, este processo pode ser revertido a qualquer altura. Pressione OK para obliterar o botão de silencio";
+
+"UnfixMessage" = "Esta acção irá restaurar a função original do botão de silencio. Pressione OK para continuar"; 
+
+"UploadMessage" = "Os registos contêm informação do seu(s) calendário(s) e do seu telefone. Se preferir não os enviar para o servidor, pressione obotão Cancelar. Se escolheu enviar os registos, por favor aguarde até o processo terminar.";
+
+"Log Upload Status" = "Estado de envio de registos"; 
+"More" = "Mais";
+"Contact Us" = "Contacte-nos";
+"Debug" = "Elimine erros"; 
+"Buy" = "Comprar"; 
+"RingTone" = "Tom de toque";
+"Vibrate Alert" = "Alerta de vibração ";
+"VoiceMail Alert" = "Alerta de Mensagem de voz ";
+"New Mail" = "Nova Mensagem";
+"Calender Alerts" = "Alertas de Calendário ";
+"New Text Message" = "Nova mensagem de texto";
+"Lock Sounds" = "Sons de bloquear";
+"Keyboard Clicks" = "Cliques do teclado ";
+"Not Silent" = "Não silenciado";
+"Status :" = "Estado :";
+"Profile Settings" = "Definições de perfil";
+"Send Debug Logs" = "Enviar os registos dos erros encontrados";
+"Logs sent successfully." = "Registos enviados com sucesso.";
+"There was an issue connecting to the remote server. Please try again later." = "Ocorreu um erro ao contactar o servidor remoto. Queira por favor tentar denovo mais tarde.";
+"Follow Us" = "Siga-nos";
+"Follow our tweets!" = " Siga os nossos tweets!";
+"Mon" = "Seg";
+"Tue" = "Ter";
+"Wed" = "Qua";
+"Thu" = "Qui";
+"Fri" = "Sex";
+"Sat" = "Sab";
+"Sun" = "Dom"; 
+ 
+//Next release
+"Profile" = "Perfil";
+"Everyday" = "Diariamente";
+" Enter Schedule Name Here" = " Introduza o nome da programação aqui";
+"iPhone Calendar" = "Calendário do iPhone";
+" Enter Profile Name Here" = " Introduza o nome do perfil aqui";
+"Name" = "Nome";
+"None" = "Nada";
+"Done" = "Completo";
+"Select Repeat Days" = "Escolher os dias a repetir"; 
+"Sunday" = "Domingo";
+"Monday" = "Segunda-feira";
+"Tuesday" = "Terça-feira";
+"Wednesday" = "Quarta-feira";
+"Thursday" = "Quinta-feira";
+"Friday" = "Sexta-feira";
+"Saturday" = "Sábado"; 
+"Today at" = "Hoje às";
+"Tomorrow at" = "Amanhã às"; 
+"Select Profile" = "Seleccionar Perfil";
+"Create New Schedule" = "Criar nova programação"; 
+"Delete" = "Apagar";
+"Cannot delete the profile, at least one schedule is using it" =  "Não foi possível apagar o perfil visto que pelo uma ou mais programação estão a usá-lo"; 
+"Delete Alert" = "Apagar alerta"; 
+"Save Alert" = "Salvar Alerta";
+"New Profile" = "Novo Perfil";
+"Cannot save profile with empty name" = "Não é possível salvar perfil com nome em branco";
+"A profile with same name already exist, please provide another name" = "Um perfil já existe com esse nome, queira por favor escolher outro nome.";
+"Cannot save schedule with empty name" = "Não é possível salvar programação com nome em branco ";
+"New Schedule" = "Nova programação"; 
+"Cancel" = "Cancelar :";
+"Repeats :" = "Repetições:";
+"Calendars" = "Calendários";
+"Push Notifications" = "Notificações Push";
+"Profile :" = "Perfil :";
+"Profiles" = "Perfis" ;
+"Usage Information" = "Informação de uso";
+"CalendarUsageMessage" =  "O telefone permanecerá em modo de silencio somente para eventos que tenham disponibilidade marcada como \"Ocupado\". A opção de disponibilidade pode não estar presente para certos calendários. O telefone permanecerá em modo de silencio  durante todos os eventos nesse calendário. Caso queira excluir um especifico evento do modo de silencio, queira por favor escrever '@@@' (sem as aspas) no inicio das notas relacionadas a essa entrada "; 
+"Cannot Save an empty name" = "Não é possível salvar um nome em branco";
+"Profile with same name already exists, please enter different name" = "Um perfil já existe com esse nome, queira por favor escolher outro nome.";
+"Active Profile :" = "Perfil activo :";
+"Occurs in past" = "Ocorre no passado"; 
+//Dec 7 updates updates
+
+"Try AutoSilent, the cool iPhone app" = "Experiente AutoSilent, aplicação interessante do iPhone";
+"Hello, I found 'Auto Silent' app on Cydia very useful. I think you will love it too! If you are on iPhone, click here to download the app. Use the following code to buy this cool app at discounted price. Code"="Olá, eu achei <a href='http://iphonepackers.info'>' AutoSilent ' </a> na Cydia bastante útil. Eu acho que também vai adorar! Se estiver no iPhone, clique <a href='Cydia://package/com.iphonepackers.silentmeLite'>aqui</a> para fazer o download da aplicação. Use o seguinte código para comprar esta aplicação a preços de desconto.\n Code:";
+"Refer friends and earn money!" = "Recomende os seus amigos e ganhe dinheiro!";
+"My referral Count" = "Conta dos minhas recomendações";
+"Referral Statistics" = "Estatísticas das recomendações";
+"Credits" = "Créditos";
+"Sent Mail" = "Correio enviado";
+"Remove Status Icon" = "Remover ícone de Estado";
+"Enable Status Icon" = "Mostrar ícone de Estado";
+"Thanks to Vitor Costa <yomacau@gmail.com> for Portuguese translation" = "Thanks to Vitor Costa <yomacau@gmail.com> for Portuguese translation";
+"Thank you for downloading Auto Silent. Please buy the app to activate it. It will run in trial mode for 6 days." = "Thank you for downloading Auto Silent. Please buy the app to activate it. It will run in trial mode for 6 days.";
+"Congratulations. The app has been activated" = "Congratulations. The app has been activated";
+"Thank You for considering to buy Auto Silent app. The price is USD $3.00 + $0.30 (paypal charges). The payment can be made using any major credit card or Paypal account." = "Thank You for considering to buy Auto Silent app. The price is USD $3.00 + $0.30 (paypal charges). The payment can be made using any major credit card or Paypal account."; 
+ 
+  

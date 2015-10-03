@@ -1,0 +1,40 @@
+/* (c) Copyright 2007 Garbrand van der Molen. All Rights Reserved. */
+
+#mb .phone {
+	position: absolute;
+	background: url(../_images/phone.png) no-repeat;
+	height: 328px;
+	width: 109px;
+	margin-top: 32px;
+	margin-left: -125px;
+}
+
+#mb .pairs {
+	position: absolute;
+	/* background: url(../_images/badgePairs.png) no-repeat; */
+	height: 191px;
+	width: 150px;
+	margin-top: 0px;
+	margin-left: -150px;
+}
+
+#mb .cover {
+	background: #fff url(../_images/cover-promo.jpg) top left no-repeat;
+	margin:-10px -10px 10px -150px;
+	height: 160px;
+	padding: 10px;
+	padding-left: 150px;
+	color: #fff;
+}
+
+#mb .cover H1,
+#mb .cover H2 { color: #fff;}
+
+#mb .cover .accent { color: #f54307; }
+
+/*
+color: #99ccfb;	light blue
+color: #f54307; bright orange
+color: #4baf00; bright green
+color: #d0ffac; light green
+*/

@@ -1,0 +1,12 @@
+#badge {
+	width: 77px; height: 77px;
+	/*background: url(../_images/BetaBadge.png) top left;*/
+	position: absolute;
+	z-index: 3000;
+	float: right; 
+	margin-left: 800px;
+}
+#badge IMG {
+behavior: url("/_images/pngbehavior.htc");
+vertical-align:	middle;
+}

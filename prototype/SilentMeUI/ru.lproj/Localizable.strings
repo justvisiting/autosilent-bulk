@@ -1,0 +1,137 @@
+﻿/*
+   Russian translation
+   Localizable.strings
+   SilentMe
+
+   Created by god on 9/28/09.
+   Copyright 2009 __MyCompanyName__. All rights reserved.
+ */
+
+
+"Enable" = "Включить";
+"Auto Silent" = "Автом.режим";
+"Manual Settings" = "Ручные установки";
+"Automatic Mode" = "Авто";
+"Manual Mode" = "Вручную";
+"Silent Now" = "убрать звук";
+"Starts" = "Начало";
+"Ends" = "Конец";
+"SilentProfile" = "Профиль";
+"Weekdays" = "рабочие дни";
+"Weekday Nights" = "вечера";
+"Weekend Nights" = "вечера по выходным";
+"SilentProfile" = "Профиль";
+"Weekends" = "Выходные";
+"Calender Sync" = "Синхр. с календарем";
+"Syncs with your Calendar" = "Синхр. с вашим календарем";
+"SilentProfile Settings" = "Установки профилей";
+
+//calendar 
+"iPhone Calender" = "календарь iPhone";
+"Currently Disabled" = "Выкл.";
+"Phone not Silent" =  "Звук вкл.";
+"Phone in Silent Mode" = "Звук выкл.";
+
+//silent switch options
+"Disable/Bypass Silent Switch" = "Обход кнопки Silent";
+"Enable iPhone Silent Switch" = "Включить кнопку Silent";
+"FixMessage" = "Переключатель Без Звука iphone больше недоступен. Если переключатель сломался в режиме тихо, все звуки будут восстановлены.  Если вам не понравится, можно вернуться обратно в любое время. Нажмите OK чтобы обойти Silent Switch";
+"UnfixMessage" = "Восстановить нормальное положение кнопки Silent. Нажми ОК, чтобы продолжить";
+
+"UploadMessage" = "Логи содержат информацию о вашем устройстве и календаре.Если вы не хотите отсылать ее на сервер. нажмите Отмена. Если вы выбрали выгрузку данных, ждите окончания.";
+"Log Upload Status" = "Статус выгрузки";
+
+"More" = "Еще";
+"Contact Us" = "связаться";
+"Debug" = "Отладка";
+
+"Buy" = "Купить";
+
+"RingTone" = "Сигнал";
+"Vibrate Alert" = "Вибрация";
+"VoiceMail Alert" = "Сигнал голосовой почты";
+"New Mail" = "Новая почта";
+"Calender Alerts" = "Календарь";
+"New Text Message" = "Новое СМС";
+"Lock Sounds" = "Звук блокировки";
+"Keyboard Clicks" = "Звук клавиатуры";
+"Not Silent" = "Со звуком";
+"Status :" = "Статус :";
+"Profile Settings" = "Установки профиля";
+"Send Debug Logs" = "Отправить логи отладки";
+"Logs sent successfully." = "логи успешно отправлены.";
+"There was an issue connecting to the remote server. Please try again later." = "Ошибка подключения к серверу. Попробуйте позже.";
+"Follow Us" = "Следи за нами";
+"Follow our tweets!" = "Следи за нашими Твитами!";
+"Mon" = "Пн";
+"Tue" = "Вт";
+"Wed" = "Ср";
+"Thu" = "Чт";
+"Fri" = "Пт";
+"Sat" = "Сб";
+"Sun" = "Вс";
+
+
+//Next release
+"Profile" = "Профиль";
+"Everyday" = "Ежедневно";
+" Enter Schedule Name Here" = " Введите название расписания";
+"iPhone Calendar" = "Календарь iPhone";
+" Enter Profile Name Here" = " Введите название профиля";
+"Name" = "Название";
+"None" = "Нет";
+"Done" = "Готово";
+"Select Repeat Days" = "Выберите дни повторения";
+
+"Sunday" = "Воскресенье";
+"Monday" = "Пондельник";
+"Tuesday" = "Вторник";
+"Wednesday" = "Среда";
+"Thursday" = "Четверг";
+"Friday" = "Пятница";
+"Saturday" = "Суббота";
+
+"Today at" = "Сегодня в";
+"Tomorrow at" = "Завтра в";
+
+"Select Profile" = "Выбрать профиль";
+"Create New Schedule" = "Новое расписание";
+
+"Delete" = "Удалить";
+"Cannot delete the profile, at least one schedule is using it" =  "Невозможно удалить профиль задействованный в одном из расписаний"; 
+"Delete Alert" = "Удалить оповещение"; 
+"Save Alert" = "Сохранить оповещение";
+"New Profile" = "Новый профиль";
+"Cannot save profile with empty name" = "Невозможно создать пустое название профиля";
+"A profile with same name already exist, please provide another name" = "Профиль с таким названием уже есть, выберите другое";
+"Cannot save schedule with empty name" = "Невозможно сохранить расписание с пустым именем";
+"New Schedule" = "Новое расписание";
+
+"Cancel" = "Отмена";
+"Repeats :" = "Повторение:";
+"Calendars" = "Календари";
+"Push Notifications" = "Пуш оповещение";
+"Profile :" = "Профиль:";
+"Profiles" = "Профили" ;
+"Usage Information" = "Информация об использовании";
+"CalendarUsageMessage" =  "Звук будет выключен только, если событию можно назначить статус\"Занят\". Некоторые календари могут не поддерживать.Звук будет выключен для всех событий. Если вы хотите исключить событие, введите '@@@' (без кавычек) в начале заметки о событии";
+
+"Cannot Save an empty name" = "Не могу сохранить с пустым названием";
+"Profile with same name already exists, please enter different name" = "Профиль с таким названием уже есть, выберите другое";
+"Active Profile :" = "Активный профиль:";
+"Occurs in past" = "в прошлом";
+
+//Dec 7 updates updates
+"Try AutoSilent, the cool iPhone app" = "Попробуй AutoSilent, интересная прога для iPhone";
+"Hello, I found 'Auto Silent' app on Cydia very useful. I think you will love it too! If you are on iPhone, click here to download the app. Use the following code to buy this cool app at discounted price. Code"="Привет, я нашел <a href='http://iphonepackers.info'>'Auto Silent app' </a> довольно полезной. Думаю и тебе понравится! Если ты пользуешься iphone, кликни <a href='Cydia://package/com.iphonepackers.silentmeLite'> here </a> чтобы скачать. Используй следующий код чтобы получить скидку. \n Code:";
+"Refer friends and earn money!" = "Сошлись на друга и заработай!";
+"My referral Count" = "Число ссылок";
+"Referral Statistics" = "Статистика ссылок";
+"Credits" = "Кредиты";
+"Sent Mail" = "Отправлено";
+"Remove Status Icon" = "Убрать иконку состояния";
+"Enable Status Icon" = "Вкл.иконку состояния";
+"Thanks to Oleg Golovliov <olegjdn@gmail.com> for Russian translation" = "Спасибо Олегу Головлеву<olegjdn@gmail.com> за русский перевод";
+"Thank you for downloading Auto Silent. Please buy the app to activate it. It will run in trial mode for 6 days." = "Спасибо что загрузили Auto Silent. Пожалуйста купите, чтобы активировать. В пробном режиме программа работает 6 дней.";
+"Congratulations. The app has been activated" = "Поздравляем. Приложение активировано";
+"Thank You for considering to buy Auto Silent app. The price is USD $3.00 + $0.30 (paypal charges). The payment can be made using any major credit card or Paypal account." = "Благодарим за покупку Auto Silent . Цена USD $3.00 + $0.30 (услуги  paypal). Оплата может быть произведена основными кредитными картами, посредством PayPal.";

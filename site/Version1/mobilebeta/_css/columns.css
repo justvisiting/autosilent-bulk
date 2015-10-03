@@ -1,0 +1,12 @@
+#mb .column { float: left; text-align: justify; }
+#mb .column.one { width: 168px; margin-right: 10px; }
+#mb .column.three { width: 226px; margin-right: 10px;}
+#mb .column.three.merged { width: 442px; margin-right: 10px; font-size: 14px}
+#mb .column.two { width: 342px; margin-right: 10px;}
+#mb .column.last { margin-right: 0;}
+
+#mb .sideBar { padding-left: 10px; font-size: 14px; color: #666;}
+
+#mb UL.column { margin-bottom: 40px; font-size: 12px;}
+
+#mobile .column.two { width: 320px; margin-right: 25px;}

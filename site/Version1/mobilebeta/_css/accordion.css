@@ -1,0 +1,41 @@
+.accordionTabTitleBarCollapsed,
+.accordionTabTitleBarExpanded {
+	background-color: #EDEDED;
+	padding: 5px 10px;
+	border-bottom: 1px solid #CCC;
+	/* height: 30px;
+	line-height: 30px; */
+	display: block;
+	cursor: pointer;
+}
+
+.accordionTabContentBox {
+	padding: 5px 10px;
+	margin-bottom: 0;
+	border-bottom: 1px solid #CCC;
+}
+
+#mb .accordion {
+	margin-bottom: 24px;
+}
+
+#mb .accordion UL {
+	font-size: 12px;
+}
+
+#mb .accordion H2 {
+	margin: 0;
+}
+
+#mb .accordion H3 {
+	margin: 12px 0;
+	border-bottom: 1px solid #CCC;
+}
+
+#mb .accordion H4 {
+	/* color: #f54307; */
+	color: #666;
+	margin-bottom: 6px;
+	text-align: left;
+	border-bottom: 1px solid #CCC;
+}

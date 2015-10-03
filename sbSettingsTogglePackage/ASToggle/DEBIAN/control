@@ -1,0 +1,12 @@
+Package: com.iphonepackers.asToggle
+Name: AS SBSettings Toggle
+Version: 2.0.0000
+Architecture: iphoneos-arm
+Depends: sbsettings, mobilesubstrate
+Description: Auto Silent manual mode toggle to mute and umute through sbsettings. Requires Auto Silent app. 
+Homepage: http://www.iphonepackers.info/AutoSilent/ASToggle.html
+Depiction: http://www.iphonepackers.info/AutoSilent/Depiction/ASToggle.html
+Maintainer: iPhone Packers <autosilent@iphonepackers.info>
+Author: iPhone Packers  <autosilent@iphonepackers.info>
+Sponsor: iPhonePackers <http://www.iphonepackers.info/index.htm>
+Section: Utilities

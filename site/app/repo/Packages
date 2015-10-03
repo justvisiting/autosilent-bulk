@@ -1,0 +1,15 @@
+Package: com.iphonepackers.silentme
+Version: 1.3.0000
+Section: Utilities
+Maintainer: iPhone Packers <autosilent@iphonepackers.info>
+Architecture: iphoneos-arm
+Filename: deb//AutoSilent.deb
+Size: 156862
+MD5sum: e6588069a9f4cdde0b30ecf46a1e7aed
+Description: Puts in silent mode automatically during meeting and night. It syncs with calendar and during meeting changes settings as set by user. You can also set to auto changes settings during night time.
+depiction: http://www.iphonepackers.info/AutoSilent/Depiction/index.html
+name: Auto Silent
+author: iPhone Packers  <autosilent@iphonepackers.info>
+homepage: http://www.iphonepackers.info/AutoSilent/index.html
+sponsor: iPhonePackers <http://www.iphonepackers.info/index.html>
+

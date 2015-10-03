@@ -1,0 +1,25 @@
+﻿/* 
+   Localizable.strings
+   SilentMe
+
+   Created by god on 9/28/09.
+   Copyright 2009 __MyCompanyName__. All rights reserved.
+ */
+
+"Enable" = "Enableio!!";
+"Auto Silent" = "Auto Silentio!!";
+"Manual Settings" = "Manual Settingsio!!";
+"Automatic" = "Automaticio!! Mode";
+"Manual Mode" = "Manualio!! Mode";
+"Silent Now" = "Silent Nowio!!";
+"Starts" = "Startsio!!";
+"Ends" = "Endsio!!";
+"SilentProfile" = "SilentProfileio!!";
+"Weekdays" = "Weekdaysio!!";
+"Weekday Nights" = "Weekday Nightsio!!";
+"Weekend Nights" = "Weekend Nightsio!!";
+"SilentProfile" = "SilentProfileio!!";
+"Weekends" = "Weekendsio!!";
+"Calender Sync" = "Calender Syncio!!";
+"Syncs with your Calendar" = "Syncs with your Calendar";
+"SilentProfile Settings" = "SilentProfile Settingsio!!";

@@ -1,0 +1,273 @@
+﻿/*********************NEW HEADER MOCKUP******************/
+	
+.navigation {
+/*position: absolute;*/
+	top: 37px;
+	margin-left: 195px ;
+	position: relative !important;
+	position: absolute;
+}
+.dropdown {
+	top: 42px;
+}
+/*********************END NEW HEADER MOCKUP******************/
+
+
+/***************** GENERAL STYLES ****************/
+* {
+	padding :0; 
+	margin:0
+}
+
+BODY {
+	font-family: Tahoma, 'Lucide Grande', Arial, sans-serif;
+	/* Explorer 5- centering workaround */
+	text-align: center;
+/*	font-size : 16px;*/
+}
+#shop   {
+  font-size:small;
+}
+#shop   A {
+  font-size:small;
+  text-decoration:none;
+  color: #4b5c78;
+  font-weight:bold;
+}
+/* Explorer dissapearing background-bug workaround */
+ul, ol, dl {
+	position: relative;
+}
+
+A {
+	text-decoration: none;
+}
+
+A:visited {
+	text-decoration: none;
+}
+
+A:hover {
+	text-decoration: underline;
+}
+
+A:active {
+	text-decoration: none;
+}
+
+H1, H2, H3 {
+	margin: 0;
+	padding: 0;
+}
+
+H1 {
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.genLeft {
+	float: left;
+}
+
+.genRight {
+	float: right;
+}
+
+.clear {
+	clear: both;
+	font-size: 0px;
+	margin: 0;
+	padding: 0;
+}
+
+/***************** MASTHEAD ****************/
+HTML * #Masthead {
+    background-position: bottom 51%;
+}
+#Masthead IMG {
+	float: left;				/* Explorer patch */
+}
+
+/***************** CONTAINER ****************/
+#Container {
+	/* Explorer 5- centering workaround */
+	text-align: left;
+}
+
+/***************** CONTENT ****************/
+	
+#Content H1 {
+	color: #FF6600;
+}
+
+/***********REDIRECT*******************/
+#redirect{
+position:absolute;
+width:300px;
+height:50px;
+top:30px;
+display:block;
+cursor:pointer;
+
+}
+
+/***************** HEADER ****************/
+#Header {
+	padding: 0 5px 0 5px;
+}
+
+#Header IMG {
+	float: left;
+	margin-left: -10px;
+	margin-right:37px;
+}
+
+#Header H1 {
+	color: #0099CC;
+	margin: 0;
+	padding-top: 25px;
+	font-size:16pt;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+#Header P {
+	color: #545454;
+	font-size: 11pt;
+	margin: 0;
+	padding-left:110px;
+	margin-top: 0;
+}
+#Header A {
+	color: #545454;
+	font-size: 11pt;
+	margin-top:10px;
+
+}
+
+/*****************Rectangle*********************/
+#Rectangle {
+	xbackground-image: url(../../_images/rectBg_new.gif);
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+.debug { 
+        font-size: 8px;
+        color: red;
+}
+
+
+.notification { 
+     font-size: 11pt;
+     color: red;
+}
+/***********GOOGLE SEARCHBAR***************/
+		.google {
+			margin-top: 7px; position: absolute; margin-left: 555px; width: 345px; line-height: 1em; text-align: right;
+		}
+		.google IMG {
+			behavior: url("/_images/pngbehavior.htc");
+			vertical-align:	middle;
+		}
+/********************************ebuddy in your website********************************/
+.content {
+	padding:30px 20px 20px;
+}
+#Content .content h1{
+	font-size:1.5em;
+	color:#0495cc;
+}
+#Content .content p{
+	font-size:14px;
+	margin:10px 0;
+}
+#Content .login-large p, #Content .login-small p {font-size:11px; height:23px}
+.content .login-large {
+	float:left;
+	width:350px;
+}
+.content .login-small {
+	float:left;
+	width:250px;
+}
+.content .embed {
+	float:left;
+	width:200px;
+}
+.content h2 {
+	font:bold 13px Tahoma, Arial, sans-serif;
+	color:#ec6c21;
+	margin:10px 0
+}
+.content h2 span{
+	font-weight:normal;
+	color:#000;
+}
+.content h3 {
+	font:normal 18px Arial, sans-serif;
+}
+.content .space {
+	height:20px;
+}
+.content .embed {
+	padding-top:30px;
+}
+.content .embed .hd{
+	width:213px;
+	height:20px;
+	background:url(../../images/embedbox-hd.png) 0 0 no-repeat;
+}
+.content .embed .bd{
+	width:213px;
+	height:210px;
+	background:url(../../images/embedbox-bd.png) 0 0 repeat-y;
+}
+.content .embed .ft{
+	width:213px;
+	height:28px;
+	background:url(../../images/embedbox-ft.png) 0 0 no-repeat;
+}
+.content .embed .bd .block {
+	padding:0 20px 10px;
+}
+.content .embed .bd h3 {
+	font:bold 14px Tahoma, Arial, sans-serif;
+	color: #3baafc;
+}
+#Content .content .embed p {
+	font-size:11px;
+}
+.embed .code {
+	font-size:11px;
+	margin:10px 5px;
+}
+.embed .code .tag{
+	color:#727272;
+}
+.embed .code .txt{
+	color:#e99968;
+}
+.content label {
+	font-size:11px
+}
+.content .input {
+	padding-top:15px
+}
+.content .input .txt{
+	border:1px solid #bfbfbf;
+	padding:2px;
+	width:120px;
+	font:normal 11px Tahoma, Arial, sans-serif;
+}
+.content .input .copy{
+	border:0;
+	background:url(../../images/select-bttn.png) 0 0 no-repeat;
+	width:61px;
+	height:21px;
+	margin:5px 0 0 5px;
+}
+.content .terms {
+	margin:50px 0 10px;
+	font-size:11px;
+}		

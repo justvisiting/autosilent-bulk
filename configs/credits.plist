@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Cred1</key>
+	<string>Thanks to Frederik Meyer (Osborne), xpfx@gmx.de for German Translation</string>
+	<key>New item</key>
+	<string>Met Dank aan Rick Zelle  voor de Nederlandse Vertaling</string>
+	<key>New item - 2</key>
+	<string>Thanks to Adrian MZ (Adrive), adriv3@hotmail.com for Spanish Transalation</string>
+	<key>New item - 3</key>
+	<string>Thanks to youminbuluo, youminbuluo@gmail.com, Jerry Lee for Chinese Translation</string>
+	<key>french</key>
+	<string>Merci à François Bochatay,Prashant Choudhary, theincredible.prashant@yahoo.com, Ms. Abirami pour la traduction française</string>
+	<key>yfmdb</key>
+	<string>Thanks to Gus Mueller, gus@flyingmeat.com for FMDatabase</string>
+	<key>Japanese</key>
+	<string>日本語バージョンはKelly Kambe (gca00105@gmail.com) の協力によるものです</string>
+	<key>Russian</key>
+	<string>Спасибо Олегу Головлеву&lt;olegjdn@gmail.com&gt; за русский перевод</string>
+	<key>Trad. Chinese</key>
+	<string></string>
+</dict>
+</plist>

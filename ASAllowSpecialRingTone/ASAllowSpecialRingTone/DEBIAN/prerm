@@ -1,0 +1,4 @@
+mv /private/var/mobile/Library/SilentMe/AutoSilent.dylib /Library/MobileSubstrate/DynamicLibraries/
+chmod 755 /Library/MobileSubstrate/DynamicLibraries/AutoSilent.dylib
+
+exit 0

@@ -1,0 +1,13 @@
+#!/bin/bash
+rm -f /private/var/mobile/Library/SilentMe/*L*.plist
+case "$1" in
+"upgrade")
+cp -f /Applications/SilentMe.app/settings.plist /private/var/mobile/Library/SilentMe/settings.plist
+cp -f /Applications/SilentMe.app/daemonsettings.plist /private/var/mobile/Library/SilentMe/daemonsettings.plist
+cp -f /Applications/SilentMe.app/configs/*.plist /private/var/mobile/Library/SilentMe/
+;;
+*)
+;;
+esac
+
+exit 0

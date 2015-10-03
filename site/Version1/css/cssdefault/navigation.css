@@ -1,0 +1,169 @@
+﻿/* NEW HEADER MOCKUP */
+UL.navigation {
+	list-style: none;
+	font-size: 12px;
+	font-weight: bold;
+}
+UL.navigation LI {
+	display: inline;
+}
+UL.navigation LI A {
+	display: block;
+	float: left;
+	width: 115px;
+	line-height: 48px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #FFF;
+    background: url('../../images/separator.gif') no-repeat right top;
+}
+
+UL.navigation LI A:link,
+UL.navigation LI A:visited {
+	color: #0a143c;
+}
+UL.navigation LI A:hover {
+	background: url('../../images/hover.png') no-repeat right top;
+	color: #09c;
+}
+
+UL.navigation LI A:active {
+	background: url('../../images/active.gif');
+	color: #FFF;
+	text-shadow: 0 2px 2px #000;
+}
+
+
+/*END NEW HEADER MOCKUP*/
+
+
+#Nav {
+	position: relative;
+	top: 49px;
+	left: 316px;
+}
+
+#Nav UL {
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 3px;
+}
+
+#Nav LI {
+	position: relative;
+	top: -2px;
+	height: 14px;
+	margin-right: 3px;
+	list-style: none;
+	display: inline;
+	background-image: url('../../images/NavLink.gif');
+	background-position:right bottom;
+	background-repeat: no-repeat;
+}
+
+#Nav LI.current {
+	position: relative;
+	top: -2px;
+	height: 14px;
+	margin-right: 3px;
+	list-style: none;
+	display: inline;
+	background-image: url('../../images/NavLinkCurrent.gif');
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+* html #Nav LI.dummy {
+	/* visible to IE only */
+	width: 1px;
+	margin-left: -4px;
+	padding-right: 2px;
+}
+
+#Nav A {
+	height: 14px;
+	font-size: 11px;
+	font-weight: bold;
+	padding-left: 16px;
+	padding-right: 4px;
+	/* background image placement fix */
+	padding-bottom: 1px;
+}
+
+#Nav A, 
+#Nav A:visited {
+	color: #003366;
+	background-image: url('../../images/navArrowReg.gif');
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+#Nav A:hover {
+	color: #ff6600;
+	text-decoration: none;
+	background-image: url('../../images/navArrowHover.gif');
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+#Nav .current A, 
+#Nav .current A:visited {
+	color: #ff6600;
+	background-image: url('../../images/navArrowActive.gif');
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+/****************** DROPDOWN MENU LANGUAGES ******************/
+#Nav #languages {
+	position: absolute;
+	width: 34px;
+	right: 0;
+	top: 2px;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	font-size: 11px;
+	cursor: pointer;
+	height: 16px;
+	padding-left: 5px;
+	padding-top: 1px;
+	vertical-align: middle;
+}
+
+#Nav #languages {
+	/*background-image: none;*/
+	background-image: url('../../images/langButton.gif') ;
+}
+
+#Nav #languages IMG {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+/****************** UTILITY LINKS ******************/
+.utils {
+	color: #545454;
+	font-size: 9px;
+	float: right;
+	margin-right: 8px;
+	top: 10px;
+}
+
+.utils LI {
+	display: inline;
+	list-style-type: none;
+	padding-right: 2px;
+}
+
+.utils A, 
+.utils A:visited {
+	color: #003366;
+}
+
+.utils A:hover, 
+.utils A:active {
+	color: #FF6600;
+	text-decoration: underline;
+}

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mv /Library/MobileSubstrate/DynamicLibraries/AutoSilent.dylib /private/var/mobile/Library/SilentMe/
+
+exit 0

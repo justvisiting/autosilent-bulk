@@ -1,0 +1,32 @@
+
+
+
+/* PNG Behaviour */
+IMG {	behavior: url("../_includes/pngbehavior.htc"); }
+
+/* Restore sensible defaults */
+P { margin-bottom: 1em;  }
+#mb UL, OL { padding-left: 1.5em; margin-bottom: 1em; text-align: left;}
+
+/* Default Styles */
+A:link, A:visited {
+	color: #0568b2;
+	text-decoration: none;
+}
+
+A:hover { text-decoration: underline; }
+
+A IMG { border: none; }
+
+LI { margin-bottom: 0.25em;}
+
+.textbox { background: url(../_images/input_bg.gif) repeat-x; height: 22px; border: 1px solid #cccccc; padding-top:0; padding-left:2px; line-height: 22px; font-size: 16px}
+.form_btn_done {background: url(../_images/button.gif) 0 2px no-repeat; width: 95px; height: 33px; border: 0; line-height: 33px; font-weight: 800; font-size: 16px; color: #777 }
+.form_btn {background: url(../_images/button.gif) 0 2px no-repeat; width: 95px; height: 33px; border: 0; line-height: 33px; font-weight: 800; font-size: 16px }
+.error_div {
+	color: red;
+	font-weight: bold;	
+	display: none;
+	font-size: 8pt;
+}
+.index_btn {background: url(../_images/go_btn.gif) 0 2px no-repeat; width: 53px; height: 28px; border: 0; line-height: 33px; font-weight: 800; font-size: 16px }

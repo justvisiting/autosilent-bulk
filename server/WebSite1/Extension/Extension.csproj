@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{88319FEA-882E-4610-88A8-B03A8B525E2F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Extension</RootNamespace>
+    <AssemblyName>Extension</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Handlers\AppVerifier.cs" />
+    <Compile Include="Handlers\BuyHandler.cs" />
+    <Compile Include="Handlers\CatchAllHandler.cs" />
+    <Compile Include="Handlers\ConfirmPaymentHandler.cs" />
+    <Compile Include="Database\DatabaseAccessor.cs" />
+    <Compile Include="DepictionHandler.cs" />
+    <Compile Include="Diagnostics.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Handlers\LogDiagnosticsHandler.cs" />
+    <Compile Include="Handlers\ReferFriend.cs" />
+    <Compile Include="KeepAliveScheduler.cs" />
+    <Compile Include="LogWriter.cs" />
+    <Compile Include="Payment.cs" />
+    <Compile Include="PaymentProcessor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReferralCore.cs" />
+    <Compile Include="Shared.cs" />
+    <Compile Include="Transactions.cs">
+      <DependentUpon>Transactions.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Transactions.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionWrapper.cs" />
+    <Compile Include="V2Handler.cs" />
+    <Compile Include="XmlSerialize.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Transactions.xsc">
+      <DependentUpon>Transactions.xsd</DependentUpon>
+    </None>
+    <None Include="Transactions.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Transactions.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Transactions.xss">
+      <DependentUpon>Transactions.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Shared\iPhonePackersCommon.csproj">
+      <Project>{55065E20-26AA-460A-A93A-C6D19F62D7A9}</Project>
+      <Name>iPhonePackersCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

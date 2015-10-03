@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = CB269CBB105274B90039645B /* mobileSubstratePlugin */;
+		activeTarget = 8DD76F740486A8DE00D96B5E /* mobileSubstratePlugin */;
+		addToTargets = (
+			8DD76F740486A8DE00D96B5E /* mobileSubstratePlugin */,
+		);
+		codeSenseManager = CB269CC4105274BC0039645B /* Code sense */;
+		executables = (
+			CB269CBB105274B90039645B /* mobileSubstratePlugin */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					356,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 273843044;
+			PBXWorkspaceStateSaveDate = 273843044;
+		};
+		perUserProjectItems = {
+			CB1C6244105285340032C527 /* PBXTextBookmark */ = CB1C6244105285340032C527 /* PBXTextBookmark */;
+			CB1C6245105285340032C527 /* PBXTextBookmark */ = CB1C6245105285340032C527 /* PBXTextBookmark */;
+			CB1C6246105285340032C527 /* PBXTextBookmark */ = CB1C6246105285340032C527 /* PBXTextBookmark */;
+			CB1C6247105285340032C527 /* PBXTextBookmark */ = CB1C6247105285340032C527 /* PBXTextBookmark */;
+			CB1C6248105285340032C527 /* PBXTextBookmark */ = CB1C6248105285340032C527 /* PBXTextBookmark */;
+			CB1C6249105285340032C527 /* PBXTextBookmark */ = CB1C6249105285340032C527 /* PBXTextBookmark */;
+			CB1C624A105285340032C527 /* PBXTextBookmark */ = CB1C624A105285340032C527 /* PBXTextBookmark */;
+			CB1C624B105285340032C527 /* PBXTextBookmark */ = CB1C624B105285340032C527 /* PBXTextBookmark */;
+			CB1C624C105285340032C527 /* PBXTextBookmark */ = CB1C624C105285340032C527 /* PBXTextBookmark */;
+			CB1C624D105285340032C527 /* PBXTextBookmark */ = CB1C624D105285340032C527 /* PBXTextBookmark */;
+			CB1C6253105285970032C527 /* PBXTextBookmark */ = CB1C6253105285970032C527 /* PBXTextBookmark */;
+		};
+		sourceControlManager = CB269CC3105274BC0039645B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* main.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {534, 556}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 168}";
+		};
+	};
+	8DD76F740486A8DE00D96B5E /* mobileSubstratePlugin */ = {
+		activeExec = 0;
+		executables = (
+			CB269CBB105274B90039645B /* mobileSubstratePlugin */,
+		);
+	};
+	C6859E970290921104C91782 /* mobileSubstratePlugin.1 */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {534, 1050}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1716}";
+		};
+	};
+	CB1C6244105285340032C527 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C6859E970290921104C91782 /* mobileSubstratePlugin.1 */;
+		name = "mobileSubstratePlugin.1: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1716;
+		vrLoc = 0;
+	};
+	CB1C6245105285340032C527 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB269CC9105274DB0039645B /* Makefile */;
+		name = "Makefile: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1084;
+		vrLoc = 0;
+	};
+	CB1C6246105285340032C527 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 168;
+		vrLoc = 0;
+	};
+	CB1C6247105285340032C527 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB269CC8105274DB0039645B /* ExampleHookProtocol.h */;
+		name = "ExampleHookProtocol.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 620;
+		vrLoc = 0;
+	};
+	CB1C6248105285340032C527 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB269CC7105274DB0039645B /* ExampleHookLibrary.mm */;
+		name = "ExampleHookLibrary.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1107;
+		vrLoc = 0;
+	};
+	CB1C6249105285340032C527 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB269CC7105274DB0039645B /* ExampleHookLibrary.mm */;
+		name = "ExampleHookLibrary.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1107;
+		vrLoc = 0;
+	};
+	CB1C624A105285340032C527 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C6859E970290921104C91782 /* mobileSubstratePlugin.1 */;
+		name = "mobileSubstratePlugin.1: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1716;
+		vrLoc = 0;
+	};
+	CB1C624B105285340032C527 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB269CC9105274DB0039645B /* Makefile */;
+		name = "Makefile: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1084;
+		vrLoc = 0;
+	};
+	CB1C624C105285340032C527 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 168;
+		vrLoc = 0;
+	};
+	CB1C624D105285340032C527 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB269CC8105274DB0039645B /* ExampleHookProtocol.h */;
+		name = "ExampleHookProtocol.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 620;
+		vrLoc = 0;
+	};
+	CB1C6253105285970032C527 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CB269CC7105274DB0039645B /* ExampleHookLibrary.mm */;
+		name = "ExampleHookLibrary.mm: 16";
+		rLen = 0;
+		rLoc = 386;
+		rType = 0;
+		vrLen = 1099;
+		vrLoc = 0;
+	};
+	CB269CBB105274B90039645B /* mobileSubstratePlugin */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = mobileSubstratePlugin;
+		sourceDirectories = (
+		);
+	};
+	CB269CC3105274BC0039645B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	CB269CC4105274BC0039645B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CB269CC7105274DB0039645B /* ExampleHookLibrary.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {534, 556}}";
+			sepNavSelRange = "{386, 0}";
+			sepNavVisRange = "{0, 1099}";
+		};
+	};
+	CB269CC8105274DB0039645B /* ExampleHookProtocol.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {534, 556}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 620}";
+		};
+	};
+	CB269CC9105274DB0039645B /* Makefile */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {534, 1386}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1084}";
+		};
+	};
+}

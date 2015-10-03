@@ -1,0 +1,48 @@
+Compiler=arm-apple-darwin9-g++
+IP=root@192.168.1.102
+Sysroot=/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.0.sdk
+
+LDFLAGS=	-lobjc \
+				-framework Foundation \
+				-framework UIKit \
+				-framework CoreFoundation \
+				-multiply_defined suppress \
+				-L$(Sysroot)/usr/lib \
+				-F$(Sysroot)/System/Library/Frameworks \
+				-F$(Sysroot)/System/Library/PrivateFrameworks \
+				-dynamiclib \
+				-init _ExampleHookInitialize \
+				-Wall \
+				-Werror \
+				-lsubstrate \
+				-lobjc \
+				-ObjC++ \
+				-fobjc-exceptions \
+				-march=armv6 \
+				-mcpu=arm1176jzf-s \
+				-fobjc-call-cxx-cdtors
+
+CFLAGS= -dynamiclib \
+    -I"$(Sysroot)/usr/include" \
+
+Objects= ExampleHookLibrary.o
+
+Target=ExampleHook.dylib
+
+all:	$(Target) install
+
+install:
+		scp $(Target) $(IP):/var/root
+		ssh $(IP) chmod 755 $(Target) 
+		ssh $(IP) mv $(Target) /Library/MobileSubstrate/DynamicLibraries
+		ssh $(IP) killall SpringBoard
+
+$(Target):	$(Objects)
+		$(Compiler) $(LDFLAGS) -o $@ $^
+		ldid -S $(Target)
+
+%.o:	%.mm
+		$(Compiler) -c $(CFLAGS) $< -o $@
+
+clean:
+		rm -f *.o $(Target)

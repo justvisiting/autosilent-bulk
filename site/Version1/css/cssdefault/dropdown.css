@@ -1,0 +1,79 @@
+﻿/*
+   dropdown.css
+   eBuddyHeader
+   
+   Created by Garbrand van der Molen on 2007-10-09.
+   Copyright 2007 eBuddy. All rights reserved.
+*/
+#langbar {
+	position: absolute; 
+	z-index: 10; 
+	top: 55px; 
+	margin-left: 780px; 
+	background-color:transparent;
+}
+
+.dropdown {
+	line-height: 16px;
+	font: 11px Arial, Tahoma, sans-serif;
+	position: relative;
+	z-index: 200;
+}
+
+.dropdown P {
+	padding: 0 4px;
+	color: #F30;
+	margin-left: 775px;
+	margin-bottom: 0;
+}
+
+.dropdown LABEL {
+	display: block;
+	background: url('../../images/dropdown.gif') no-repeat;
+	width: 110px;
+	line-height: 16px;
+	height: 16px;
+	padding: 0 4px;
+	position: absolute;
+	right: 10px;
+}
+
+.dropdown UL {
+	overflow: hidden;
+	display: none;
+	background: #EDEDED;
+	position: absolute;
+	top: 16px;
+	border: 1px solid #a8aaae;
+	width: 110px;
+	right: 14px;
+	z-index: 107;
+}
+
+.dropdown:hover UL {
+	/* this will not work for IE, use js there */
+	/*display: block;*/
+}
+
+.dropdown LI {
+list-style: none;
+}
+
+.dropdown LI A {
+	line-height: 16px;
+	overflow: hidden;
+	display: block;
+	padding: 0 4px;
+	color: #000;
+	text-decoration: none;
+}
+
+.dropdown LI A:hover {
+	background: #09C;
+	color: #fff;
+}
+
+.dropdown LI A:active {
+	background: #F30;
+	color: #fff;
+}

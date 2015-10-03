@@ -1,0 +1,130 @@
+/* 
+   Localizable.strings
+   SilentMe
+
+   Created by god on 9/28/09.
+   Copyright 2009 __MyCompanyName__. All rights reserved.
+   Dutch Translation: Rick Zelle - The Netherlands - 12/10/09
+ */
+
+"Enable" = "Gebruik";
+"Auto Silent" = "Auto Silent";
+"Manual Settings" = "Handmatige instellingen";
+"Automatic Mode" = "Automatische instellingen";
+"Manual Mode" = "Handmatige instellingen";
+"Silent Now" = "Nu Stil";
+"Starts" = "Begint:";
+"Ends" = "Eindigt:";
+"SilentProfile" = "Stil Profiel";
+"Weekdays" = "Werkdagen";
+"Weekday Nights" = "Werkdag Nacht";
+"Weekend Nights" = "Weekend Nacht";
+"SilentProfile" = "Stil Profiel";
+"Weekends" = "Weekend";
+"Calender Sync" = "Agenda Sync";
+"Syncs with your Calendar" = "Gebruikt Agenda afspraken";
+"SilentProfile Settings" = "Profiel Instellingen";
+
+//To be finalized. Entry not in other languages
+"iPhone Calender" = "iPhone Agenda";
+"Currently Disabled" = "Momenteel Uitgeschakeld";
+"Phone not Silent" =  "Telefoon niet Stil";
+"Phone in Silent Mode" = "Telefoon Stil";
+"Disable/Bypass Silent Switch" = "Omzeil Belsignaal Schakelaar";
+"Enable iPhone Silent Switch" = "Gebruik Belsignaal schakelaar";
+"FixMessage" = "Je kunt nu niet langer de Belsignaal Schakelaar gebruiken. Als de Schakelaar kapot is in stille mode, worden nu alle geluiden weer aangezet.  Als het niet bevalt, kan je het altijd terugzetten. Druk op OK om de Belsignaal Schakelaar te omzeilen";
+"UnfixMessage" = "Dit herstelt de originele functionaliteit van de Belsignaal Schakelaar. Druk OK om door te gaan";
+
+"UploadMessage" = "Logs bevatten Agenda & Toestel informatie. Als je dat niet wilt versturen, druk de Afbreken knop. Als je er voor kiest de logs te uploaden, wacht dan a.u.b. tot deze helemaal klaar zijn.";
+"Log Upload Status" = "Log Upload Status";
+
+"More" = "Meer";
+"Contact Us" = "Neem contact op";
+"Debug" = "Debug";
+
+"Buy" = "Koop";
+
+"RingTone" = "RingToon";
+"Vibrate Alert" = "Trillen";
+"VoiceMail Alert" = "VoiceMail";
+"New Mail" = "Nieuwe Mail";
+"Calender Alerts" = "Agenda geluid";
+"New Text Message" = "Nieuwe SMS";
+"Lock Sounds" = "Vergrendel geluiden";
+"Keyboard Clicks" = "Toetsenbord klik";
+"Not Silent" = "Niet Stil";
+"Status :" = "Status :";
+"Profile Settings" = "Profiel Instellingen";
+"Send Debug Logs" = "Zend Debug Logs";
+"Logs sent successfully." = "Logs successvol verzonden.";
+"There was an issue connecting to the remote server. Please try again later." = "Er was een probleem met verbinden met de Remote Server. Probeer het later nog eens.";
+"Follow Us" = "Volg ons";
+"Follow our tweets!" = "Volg onze tweets!";
+"Mon" = "Ma";
+"Tue" = "Di";
+"Wed" = "Wo";
+"Thu" = "Do";
+"Fri" = "Vr";
+"Sat" = "Za";
+"Sun" = "Zo";
+
+
+//Next release
+"Profile" = "Profiel";
+"Everyday" = "Elke Dag";
+" Enter Schedule Name Here" = " Voer Schemanaam in";
+" iPhone Calendar" = "iPhone Agenda";
+" Enter Profile Name Here" = " Voer Profielnaam in";
+"Name" = "Naam";
+"None" = "Geen";
+"Done" = "Klaar";
+"Select Repeat Days" = "Selecteer Herhaling";
+
+"Sunday" = "Zondag";
+"Monday" = "Maandag";
+"Tuesday" = "Dinsdag";
+"Wednesday" = "Woensdag";
+"Thursday" = "Donderdag";
+"Friday" = "Vrijdag";
+"Saturday" = "Zaterdag";
+
+"Today at" = "Vandaag om";
+"Tomorrow at" = "Morgen om";
+
+"Select Profile" = "Selecteer Profiel";
+"Create New Schedule" = "Maak Nieuw Schema";
+
+"Delete" = "Verwijderen";
+"Cannot delete the profile, at least one schedule is using it" =  "Kan profiel niet verwijderen, wordt nog in minimaal 1 schema gebruikt"; 
+"Delete Alert" = "Verwijder Waarschuwing"; 
+"Save Alert" = "Save Waarschuwing";
+"New Profile" = "Nieuw Profiel";
+"Cannot save profile with empty name" = "Kan geen Profiel zonder naam opslaan";
+"A profile with same name already exist, please provide another name" = "Een profiel met deze naam bestaat al, geef a.u.b. een andere naam";
+"Cannot save schedule with empty name" = "Kan geen Schema zonder naam opslaan";
+"New Schedule" = "Nieuw Schema";
+
+"Cancel" = "Afbreken";
+"Repeats :" = "Herhalen:";
+"Calendars" = "Agenda's";
+"Push Notifications" = "Push Berichten";
+"Profile :" = "Profiel :";
+"Profiles" = "Profielen" ;
+"Usage Information" = "Gebruiks Informatie";
+"CalendarUsageMessage" =  "De telefoon gaat op stil voor alle afspraken waar de status staat op \"Bezet\". Dit kan afhankelijk zijn van de ondersteuning hiervoor van de (desktop) Agenda. Al dit niet ondersteund wordt gaat de telefoon op stil voor ALLE afspraken in deze agenda. Wil je toch voorkomen dat bij bepaalde afspraken de telefoon op stil gaat, zet dan '@@@' (zonder quotes) aan het begin van het notitie veld voor die afspraak";
+
+"Cannot Save an empty name" = "Kan niet opslaan zonder naam";
+"Profile with same name already exists, please enter different name" = "Er bestaat al een Profiel met deze naam, geef a.u.b. een andere naam";
+"Active Profile :" = "Actief Profiel :";
+"Occurs in past" = "ligt in het verleden";
+
+//Dec 7 updates updates
+"Try AutoSilent, the cool iPhone app" = "Probeer AutoSilent, de coole iPhone app";
+"Hello, I found 'Auto Silent' app on Cydia very useful. I think you will love it too! If you are on iPhone, click here to download the app. Use the following code to buy this cool app at discounted price. Code"="Hallo, Ik vond de <a href='http://iphonepackers.info'>'Auto Silent' app </a>in Cydia erg handig. Ik denk dat jij het ook handig zal vinden! Als je op je iPhone surft, druk <a href='Cydia://packages/com.iphonepackers.silentmeLite'>\"hier\"</a> om deze app te downloaden. Gebruik de volgende code om korting te verkrijgen op de aankoopprijs: Code";
+"Refer friends and earn money!" = "Vertel door en verdien geld!";
+"My referral Count" = "Mijn Referenties";
+"Referral Statistics" = "Referentie Statistieken";
+"Credits" = "Met Dank Aan";
+"Sent Mail" = "Zend Mail";
+"Remove Status Icon" = "Verberg Status Icoon";
+"Enable Status Icon" = "Toon Status Icoon";

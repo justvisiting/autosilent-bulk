@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		8DD76F9F0486AA7600D96B5E /* newdaemonScript.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* newdaemonScript.1 */; };
+		9187BE6D12CC3E0D00DDE45D /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9187BE6C12CC3E0D00DDE45D /* EventKit.framework */; };
+		CBF54A1210981E2900880328 /* Base64TransCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF549EC10981E2900880328 /* Base64TransCoder.m */; };
+		CBF54A1310981E2900880328 /* BaseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF549EE10981E2900880328 /* BaseEvent.m */; };
+		CBF54A1410981E2900880328 /* calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF549F010981E2900880328 /* calendar.m */; };
+		CBF54A1510981E2900880328 /* CheckAppType.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF549F210981E2900880328 /* CheckAppType.m */; };
+		CBF54A1610981E2900880328 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF549F410981E2900880328 /* Common.m */; };
+		CBF54A1710981E2900880328 /* configManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF549F610981E2900880328 /* configManager.m */; };
+		CBF54A1810981E2900880328 /* constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF549F810981E2900880328 /* constants.m */; };
+		CBF54A1910981E2900880328 /* dictionaryHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF549FA10981E2900880328 /* dictionaryHelper.m */; };
+		CBF54A1A10981E2900880328 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF549FC10981E2900880328 /* FMDatabase.m */; };
+		CBF54A1B10981E2900880328 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF549FE10981E2900880328 /* FMDatabaseAdditions.m */; };
+		CBF54A1C10981E2900880328 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF54A0010981E2900880328 /* FMResultSet.m */; };
+		CBF54A1D10981E2900880328 /* logger.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF54A0210981E2900880328 /* logger.m */; };
+		CBF54A1E10981E2900880328 /* NightTime.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF54A0410981E2900880328 /* NightTime.m */; };
+		CBF54A1F10981E2900880328 /* Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF54A0610981E2900880328 /* Notifications.m */; };
+		CBF54A2010981E2900880328 /* powerMgmt.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF54A0810981E2900880328 /* powerMgmt.m */; };
+		CBF54A2110981E2900880328 /* profile.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF54A0A10981E2900880328 /* profile.m */; };
+		CBF54A2210981E2900880328 /* scheduleInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF54A0C10981E2900880328 /* scheduleInfo.m */; };
+		CBF54A2310981E2900880328 /* scheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF54A0E10981E2900880328 /* scheduler.m */; };
+		CBF54A2410981E2900880328 /* settingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF54A1010981E2900880328 /* settingsManager.m */; };
+		CBF54A2510981E2900880328 /* SilentMed.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF54A1110981E2900880328 /* SilentMed.m */; };
+		CBF54B1B1098228700880328 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF54B1A1098228700880328 /* CoreFoundation.framework */; };
+		CBF54B20109822CD00880328 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF54B1F109822CD00880328 /* libsqlite3.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F9F0486AA7600D96B5E /* newdaemonScript.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8DD76FA10486AA7600D96B5E /* newdaemonScript */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = newdaemonScript; sourceTree = BUILT_PRODUCTS_DIR; };
+		9187BE6C12CC3E0D00DDE45D /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/EventKit.framework; sourceTree = "<absolute>"; };
+		C6859EA3029092ED04C91782 /* newdaemonScript.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = newdaemonScript.1; sourceTree = "<group>"; };
+		CBF549EB10981E2800880328 /* Base64TransCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64TransCoder.h; sourceTree = "<group>"; };
+		CBF549EC10981E2900880328 /* Base64TransCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64TransCoder.m; sourceTree = "<group>"; };
+		CBF549ED10981E2900880328 /* BaseEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEvent.h; sourceTree = "<group>"; };
+		CBF549EE10981E2900880328 /* BaseEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseEvent.m; sourceTree = "<group>"; };
+		CBF549EF10981E2900880328 /* calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calendar.h; sourceTree = "<group>"; };
+		CBF549F010981E2900880328 /* calendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calendar.m; sourceTree = "<group>"; };
+		CBF549F110981E2900880328 /* CheckAppType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckAppType.h; sourceTree = "<group>"; };
+		CBF549F210981E2900880328 /* CheckAppType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckAppType.m; sourceTree = "<group>"; };
+		CBF549F310981E2900880328 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		CBF549F410981E2900880328 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		CBF549F510981E2900880328 /* configManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = configManager.h; sourceTree = "<group>"; };
+		CBF549F610981E2900880328 /* configManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = configManager.m; sourceTree = "<group>"; };
+		CBF549F710981E2900880328 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		CBF549F810981E2900880328 /* constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = constants.m; sourceTree = "<group>"; };
+		CBF549F910981E2900880328 /* dictionaryHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dictionaryHelper.h; sourceTree = "<group>"; };
+		CBF549FA10981E2900880328 /* dictionaryHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dictionaryHelper.m; sourceTree = "<group>"; };
+		CBF549FB10981E2900880328 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		CBF549FC10981E2900880328 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		CBF549FD10981E2900880328 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		CBF549FE10981E2900880328 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		CBF549FF10981E2900880328 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		CBF54A0010981E2900880328 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		CBF54A0110981E2900880328 /* logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logger.h; sourceTree = "<group>"; };
+		CBF54A0210981E2900880328 /* logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logger.m; sourceTree = "<group>"; };
+		CBF54A0310981E2900880328 /* NightTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NightTime.h; sourceTree = "<group>"; };
+		CBF54A0410981E2900880328 /* NightTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NightTime.m; sourceTree = "<group>"; };
+		CBF54A0510981E2900880328 /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
+		CBF54A0610981E2900880328 /* Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notifications.m; sourceTree = "<group>"; };
+		CBF54A0710981E2900880328 /* powerMgmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = powerMgmt.h; sourceTree = "<group>"; };
+		CBF54A0810981E2900880328 /* powerMgmt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = powerMgmt.m; sourceTree = "<group>"; };
+		CBF54A0910981E2900880328 /* profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profile.h; sourceTree = "<group>"; };
+		CBF54A0A10981E2900880328 /* profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = profile.m; sourceTree = "<group>"; };
+		CBF54A0B10981E2900880328 /* scheduleInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scheduleInfo.h; sourceTree = "<group>"; };
+		CBF54A0C10981E2900880328 /* scheduleInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scheduleInfo.m; sourceTree = "<group>"; };
+		CBF54A0D10981E2900880328 /* scheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scheduler.h; sourceTree = "<group>"; };
+		CBF54A0E10981E2900880328 /* scheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scheduler.m; sourceTree = "<group>"; };
+		CBF54A0F10981E2900880328 /* settingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settingsManager.h; sourceTree = "<group>"; };
+		CBF54A1010981E2900880328 /* settingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingsManager.m; sourceTree = "<group>"; };
+		CBF54A1110981E2900880328 /* SilentMed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SilentMed.m; sourceTree = "<group>"; };
+		CBF54A2910981EB200880328 /* newdaemonScript_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newdaemonScript_Prefix.pch; sourceTree = "<group>"; };
+		CBF54B1A1098228700880328 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		CBF54B1F109822CD00880328 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = /usr/lib/libsqlite3.0.dylib; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+				CBF54B1B1098228700880328 /* CoreFoundation.framework in Frameworks */,
+				CBF54B20109822CD00880328 /* libsqlite3.0.dylib in Frameworks */,
+				9187BE6D12CC3E0D00DDE45D /* EventKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* newdaemonScript */ = {
+			isa = PBXGroup;
+			children = (
+				CBF549EB10981E2800880328 /* Base64TransCoder.h */,
+				CBF549EC10981E2900880328 /* Base64TransCoder.m */,
+				CBF549ED10981E2900880328 /* BaseEvent.h */,
+				CBF549EE10981E2900880328 /* BaseEvent.m */,
+				CBF549EF10981E2900880328 /* calendar.h */,
+				CBF549F010981E2900880328 /* calendar.m */,
+				CBF549F110981E2900880328 /* CheckAppType.h */,
+				CBF549F210981E2900880328 /* CheckAppType.m */,
+				CBF549F310981E2900880328 /* Common.h */,
+				CBF549F410981E2900880328 /* Common.m */,
+				CBF549F510981E2900880328 /* configManager.h */,
+				CBF549F610981E2900880328 /* configManager.m */,
+				CBF549F710981E2900880328 /* constants.h */,
+				CBF549F810981E2900880328 /* constants.m */,
+				CBF549F910981E2900880328 /* dictionaryHelper.h */,
+				CBF549FA10981E2900880328 /* dictionaryHelper.m */,
+				CBF549FB10981E2900880328 /* FMDatabase.h */,
+				CBF549FC10981E2900880328 /* FMDatabase.m */,
+				CBF549FD10981E2900880328 /* FMDatabaseAdditions.h */,
+				CBF549FE10981E2900880328 /* FMDatabaseAdditions.m */,
+				CBF549FF10981E2900880328 /* FMResultSet.h */,
+				CBF54A0010981E2900880328 /* FMResultSet.m */,
+				CBF54A0110981E2900880328 /* logger.h */,
+				CBF54A0210981E2900880328 /* logger.m */,
+				CBF54A0310981E2900880328 /* NightTime.h */,
+				CBF54A0410981E2900880328 /* NightTime.m */,
+				CBF54A0510981E2900880328 /* Notifications.h */,
+				CBF54A0610981E2900880328 /* Notifications.m */,
+				CBF54A0710981E2900880328 /* powerMgmt.h */,
+				CBF54A0810981E2900880328 /* powerMgmt.m */,
+				CBF54A0910981E2900880328 /* profile.h */,
+				CBF54A0A10981E2900880328 /* profile.m */,
+				CBF54A0B10981E2900880328 /* scheduleInfo.h */,
+				CBF54A0C10981E2900880328 /* scheduleInfo.m */,
+				CBF54A0D10981E2900880328 /* scheduler.h */,
+				CBF54A0E10981E2900880328 /* scheduler.m */,
+				CBF54A0F10981E2900880328 /* settingsManager.h */,
+				CBF54A1010981E2900880328 /* settingsManager.m */,
+				CBF54A1110981E2900880328 /* SilentMed.m */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859EA2029092E104C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				9187BE6C12CC3E0D00DDE45D /* EventKit.framework */,
+			);
+			name = newdaemonScript;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CBF54A2910981EB200880328 /* newdaemonScript_Prefix.pch */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				CBF54B1F109822CD00880328 /* libsqlite3.0.dylib */,
+				CBF54B1A1098228700880328 /* CoreFoundation.framework */,
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FA10486AA7600D96B5E /* newdaemonScript */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859EA2029092E104C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859EA3029092ED04C91782 /* newdaemonScript.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F960486AA7600D96B5E /* newdaemonScript */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "newdaemonScript" */;
+			buildPhases = (
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = newdaemonScript;
+			productInstallPath = "$(HOME)/bin";
+			productName = newdaemonScript;
+			productReference = 8DD76FA10486AA7600D96B5E /* newdaemonScript */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "newdaemonScript" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* newdaemonScript */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F960486AA7600D96B5E /* newdaemonScript */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF54A1210981E2900880328 /* Base64TransCoder.m in Sources */,
+				CBF54A1310981E2900880328 /* BaseEvent.m in Sources */,
+				CBF54A1410981E2900880328 /* calendar.m in Sources */,
+				CBF54A1510981E2900880328 /* CheckAppType.m in Sources */,
+				CBF54A1610981E2900880328 /* Common.m in Sources */,
+				CBF54A1710981E2900880328 /* configManager.m in Sources */,
+				CBF54A1810981E2900880328 /* constants.m in Sources */,
+				CBF54A1910981E2900880328 /* dictionaryHelper.m in Sources */,
+				CBF54A1A10981E2900880328 /* FMDatabase.m in Sources */,
+				CBF54A1B10981E2900880328 /* FMDatabaseAdditions.m in Sources */,
+				CBF54A1C10981E2900880328 /* FMResultSet.m in Sources */,
+				CBF54A1D10981E2900880328 /* logger.m in Sources */,
+				CBF54A1E10981E2900880328 /* NightTime.m in Sources */,
+				CBF54A1F10981E2900880328 /* Notifications.m in Sources */,
+				CBF54A2010981E2900880328 /* powerMgmt.m in Sources */,
+				CBF54A2110981E2900880328 /* profile.m in Sources */,
+				CBF54A2210981E2900880328 /* scheduleInfo.m in Sources */,
+				CBF54A2310981E2900880328 /* scheduler.m in Sources */,
+				CBF54A2410981E2900880328 /* settingsManager.m in Sources */,
+				CBF54A2510981E2900880328 /* SilentMed.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB927508733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = newdaemonScript_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = newdaemonScript;
+			};
+			name = Debug;
+		};
+		1DEB927608733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = newdaemonScript_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = newdaemonScript;
+			};
+			name = Release;
+		};
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "newdaemonScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927508733DD40010E9CD /* Debug */,
+				1DEB927608733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "newdaemonScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

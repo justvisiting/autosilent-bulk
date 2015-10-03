@@ -1,0 +1,71 @@
+#mb UL.betanavigation {
+	background: url(/mobilebeta/_images/mb-navigationBg.png); 
+	height: 38px;
+	width: 834px;
+	background-repeat: repeat-x;
+	list-style-type: none;
+	font-size: 16px;
+	padding: 0 10px;
+	margin: -10px -10px 0 -150px; 
+	z-index: 2000;
+	padding-bottom: 10px;
+/*	border: 1px solid red;*/
+}
+* HTML #mb UL.betanavigation {
+	
+}
+#mb UL.betanavigation LI {
+	float: left;
+	width: 130px;
+	height: 38px;
+	text-align: center;
+	padding-top: 8px;
+}
+
+#mb UL.betanavigation A:link,
+#mb UL.betanavigation A:visited {
+	color: #08153f;
+	text-decoration: none;
+	display: block;
+}
+
+#mb UL.betanavigation A:hover {
+	color: #f54307;
+}
+
+#mb UL.betanavigation LI.current {
+	background: url(../_images/navigationButtonBg.png) no-repeat;
+	height: 38px;
+	width: 130px;
+}
+
+#mb UL.betanavigation LI.current A {
+	color: #fff;
+	cursor: default;
+}
+
+#mb UL.sub.betanavigation {
+	color: #666;
+	font-size: 14px;
+	margin: 0;
+	margin-top: -20px;
+	margin-left: 140px;
+	clear: both;
+	height: auto;
+	background: none;
+	display: inline;
+	float: left;
+}
+
+#mb UL.sub.betanavigation LI {
+	width: auto; 	height: auto;
+	margin-right: 32px;
+}
+
+
+/* IE Patches */
+* HTML #mb UL.betanavigation {
+	font-weight: bold;
+	margin-top: -20px;
+	padding-top: 0;
+}

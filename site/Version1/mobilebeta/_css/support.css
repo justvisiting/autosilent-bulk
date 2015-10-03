@@ -1,0 +1,63 @@
+/* (c) Copyright 2007 Garbrand van der Molen. All Rights Reserved. */
+
+#mb UL.automatic.settings {
+	list-style: none;
+	margin: 20px 0;
+	padding: 0;
+	overflow: auto;
+}
+
+#mb UL.automatic.settings LI {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+}
+
+#mb UL.automatic.settings A {
+	display: block;
+	height: 80px;
+	width: 128px;
+}
+
+#mb FORM.manual.settings {
+	margin: 20px 0;
+}
+
+
+
+#mb DL.manual.settings {
+/*	overflow: auto;*/
+	background: #EDEDED;
+	border: 1px solid #CCC;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+#mb DL.manual.settings DT {
+	width: 226px;
+	float: left;
+	clear: right;
+	border-bottom: 1px solid #fff;
+	color: #666;
+}
+
+#mb DL.manual.settings DD {
+	color: #000;
+	border-bottom: 1px solid #fff;
+}
+
+#mb A:link.buttonRed,
+#mb A:visited.buttonRed {
+	width: 196px;
+	height: 34px;
+	text-align: center;
+	display: block; float: left;
+	overflow: auto;
+	padding: 10px;
+	margin-right: 5px;
+	margin-bottom: 20px;
+	background: #F66 url(../_images/button.jpg) no-repeat;
+	color: #fff;
+	line-height: 34px;
+	font-size: 21px;
+}

@@ -1,0 +1,425 @@
+﻿.MSN {
+    color: #0099CC;
+}
+
+.Yahoo {
+    color: #669933;
+}
+
+.AOL {
+    color: #FF3500;
+}
+.Neutral {
+    color:#FF6600;
+}
+.sidebar {
+    width: 200px;
+    float: left;
+    padding: 10px;
+    padding-right:0px;
+    font-size: 10px;
+}
+.sidebar UL {
+    padding-left: 1.5em;
+}
+.main #img_size {
+width: 100px;
+}
+/***************** Styling ****************/
+.sidebar LI {
+    /*list-style-type: none;*/
+    line-height: 1.5em;
+    color: #666666;
+    font-family: Arial, sans-serif;
+}
+#Content .sidebar H1 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1em;
+    color: #0099CC;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-top: 45px;
+    background-image: url('../../images/eHead.gif');
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.sidebar H4 {
+    font-weight:bold;
+    font-size:9px;
+}
+.sidebar H2 {
+    font-size: 8pt;
+}
+.sidebar H3 {
+    font-size:8pt;
+    font-weight:bold;
+    color:#666666;
+}
+.sidebar UL {
+    margin-bottom: 10px;
+}
+
+.sidebar A, .sidebar A:Visited {
+    color: #545454;
+}
+
+.sidebar A:Hover {
+    color: #FF6600;
+}
+
+.main H1 {
+    margin-bottom: 10px;
+    font-family:tahoma;
+    font-size:16pt;
+}
+
+.main P {
+    font-size: 12px;
+    margin-bottom: 1em;
+}
+
+.breadcrumb {
+    display: block;
+    font-size: 10px;
+    color: #545454;
+    padding-bottom: 38px;
+}
+
+.breadcrumb A, .breadcrumb A:visited {
+    color: #999999;
+}
+
+
+/***************HELP*******************/
+.help {
+width:500px;
+float:right;
+position:inherit;
+}
+
+
+/*******************PAGE: main part *************************/
+
+#main_part{
+  font-size:8pt;
+  line-height:13pt;
+}
+#main_part .title{
+    font-family:Tahoma;
+    font-weight:bold;
+    font-size:15pt;
+}
+#main_part .subtitle{
+font-family:Tahoma;
+  font-size:9pt;
+  cursor:pointer;
+}
+
+#main_part .version {
+font-family:tahoma;
+ font-size:13pt;
+
+ }
+ #main_part H4 {
+    color: #0099CC;
+    font-weight:bold;
+    font-size:9px;
+}
+#main_part H2 {
+    font-size: 15px;
+    color: #FF6600;
+    font-weight:bold;
+}
+#main_part H3 {
+    font-size:10pt;
+    font-family:tahoma;
+    margin-bottom: 0.3em; 
+    color: #666;
+}
+
+#main_part A {
+color:#FF6600;
+}
+
+#main_part P {
+font-family:tahoma;
+font-size:12px;
+line-height: 15px;
+}
+
+
+#main_part dl {
+            margin-bottom: 3em;
+            /* padding: 8px;
+            background: #f0f0f0; */
+            border-top: 1px solid #CCC;
+            width: 50%;
+            float: left;
+        }
+            
+#main_part dt {
+                width: 90px;
+                color: #999;
+                clear:both;
+                float:left;
+                font-size: 10px;
+                line-height:20px;
+                /* text-align:right; */
+                border-bottom: 1px solid #CCC;
+        }
+
+#main_part dd {
+                font-size:12px;
+                line-height:20px;
+                margin:0;
+                padding:0;
+                padding-left: 98px;
+                color: #666;
+                border-bottom: 1px solid #CCC;
+        }
+
+.profile {
+            width: 28%; padding: 2%;
+            margin-left: 2%;
+            float: right;
+            font-size: 12px;
+            color: #333;
+            background: #f0f0f0;
+        }
+        
+.profile H2 { font-size: 0.7em; }
+.profile LI { margin-left: 1.2em }
+#headline {
+    background-image: url('../../images/odometer.jpg');
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 138px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+#job_desc {
+    width:265px; 
+    float: left;  
+    color: #333;
+}
+#job_list {
+    width:250px; 
+    float: left; 
+    margin-left:35px; 
+    color: #8c8c8c; 
+    font-size: 12px;
+}
+.job_heading {
+    font-size: 18px; 
+    font-weight: bold;
+}
+#job_intro {
+    font-size:14px; 
+    color: #333333;
+    line-height: 15px;
+}
+
+/******************** versions page **************/
+
+.versions UL {
+    left: 10px;
+    padding-left: 1.5em;
+}
+.versions LI {
+    color: #0033cc;
+}
+.versions A {
+color: #0033cc !important;
+}
+.newversions {
+    background: url('../../images/ebuddyversions.png') no-repeat;
+    float: left;
+    display:block; 
+    height: 240px;
+    cursor:pointer;
+}
+/********************************ebuddy in your website********************************/
+.content {
+    padding:30px 20px 20px;
+}
+#Content .content h1{
+    font-size:1.5em;
+    color:#0495cc;
+}
+#Content .content p{
+    font-size:14px;
+    margin:10px 0;
+}
+#Content .create-box, #Content .login-large p, #Content .login-small p {font-size:11px; height:23px}
+.content .login-large {
+    float:left;
+    width:350px;
+}
+.content .login-small {
+    float:left;
+    width:250px;
+}
+.content .create-box {
+    width:450px;
+}
+.content .embed {
+    float:left;
+    width:200px;
+}
+.content h2 {
+    font: 18px Arial, sans-serif;
+    color:#ec6c21;
+    margin:10px 0
+}
+.content h2 span{
+    font-weight:normal;
+    color:#000;
+    font-size: 13px
+}
+.content h3 {
+    font:normal 18px Arial, sans-serif;
+}
+.content .space {
+    height:20px;
+}
+.content .embed {
+    padding-top:35px;
+}
+.content .embed .hd{
+    width:213px;
+    height:20px;
+    background:url('../../images/embedbox-hd.png') no-repeat 0 0;
+}
+.content .embed .bd{
+    width:213px;
+    height:210px;
+    background:url('../../images/embedbox-bd.png') repeat-y 0 0;
+}
+.content .embed .ft{
+    width:213px;
+    height:28px;
+    background:url('../../images/embedbox-ft.png') no-repeat 0 0;
+}
+
+.content .embed .bd .block {
+    padding:0 20px 10px;
+}
+.content .embed .bd h3 {
+    font:bold 14px Tahoma, Arial, sans-serif;
+    color: #3baafc;
+}
+#Content .content .embed p {
+    font-size:11px;
+}
+.embed .code {
+    font-size:11px;
+    margin:10px 5px;
+}
+.embed .code .tag{
+    color:#727272;
+}
+.embed .code .txt{
+    color:#e99968;
+}
+.content label {
+    font-size:11px
+}
+.content .input {
+    padding-top:15px;
+    vertical-align: middle;
+}
+.content .input .txt{
+    border:1px solid #bfbfbf;
+    padding:2px;
+    width:120px;
+    font:normal 11px Tahoma, Arial, sans-serif;
+    vertical-align: middle;
+}
+.content .samplebox .txt{
+    border:1px solid #bfbfbf;
+    padding:2px;
+    width:320px;
+    font:normal 11px Tahoma, Arial, sans-serif;
+    vertical-align: middle;
+}
+.content .input .copy, .content .samplebox .copy{
+    border-style: none;
+	border-color: inherit;
+	border-width: 0;
+	background: url('../../images/select-bttn.png') no-repeat 0 0;
+	width:61px;
+    	height:21px;
+    	margin:0 0 0 5px;
+    cursor: hand;
+    	cursor: pointer;
+    	vertical-align: middle;
+}
+.content .terms {
+    margin:50px 0 10px;
+    font-size:11px;
+}
+
+.content  .create{
+    border-style: none;
+	border-color: inherit;
+	border-width: 0;
+	background: url('../../images/btn_generate.gif') no-repeat 0 0;
+	width:99px;
+    	height:21px;
+    	margin:5px 0 0 5px;
+    cursor: hand;
+    	cursor: pointer;
+}
+.content .samplebox {
+    width:820px;
+    background:url('../../images/bg-body.png') repeat-y 0 0;
+    float: left;
+    padding: 0 33px;
+}
+.content .samplebox .login-large {
+    width: 300px
+}
+.content .samplebox td {
+    margin: 2px 0;
+    line-height: 22px;
+}
+.content  .samplebox-hd{
+    width:820px;
+    height:20px;
+    background:url('../../images/bg-header.png') no-repeat 0 0;
+    float: left;
+}
+.content .samplebox-ft{
+    width:820px;
+    height:35px;
+    background:url('../../images/bg-footer.png') no-repeat 0 0;
+    float: left;
+}
+.content .bullet {
+    font: bold 19px Verdana, sans-serif;
+    color: #37a4ef;
+}
+.content .samplebox h4 {
+    color: #EC6C21;
+    font-size: 14px;
+}
+.content .samplebox h5 {
+    color: #EC6C21;
+    font-size: 12px;
+    margin: 4px 0;
+    text-align: center;
+}
+.content .samplebox h5 span {
+    color: #555;
+}
+.samplebox h2 {
+margin: 0;
+}
+.sample select{
+    border:1px solid #AFB3B4;
+    font-size:8px;
+    margin-bottom:3px;
+    margin-top:2px;
+}

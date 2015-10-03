@@ -1,0 +1,23 @@
+#get SilentMe,SilentMed, *.lproj
+# get configs, settings, daemon, configs/profile, configs/schedule
+#get new mobilesubstrate
+#check for post.pre commands
+
+find . -type f -name .DS_Store -exec rm -f '{}' ';'
+rm -R ./deb
+rm Packages*
+export COPYFILE_DISABLE
+export COPY_EXTENDED_ATTRIBUTES_DISABLE
+dpkg-deb -b AutoSilent
+dpkg-deb -b "AutoProfilesManager"
+dpkg-deb -b ASToggle
+dpkg-deb -b ASAllowSpecialRingTone
+mkdir deb
+mv ./AutoSilent.deb ./deb/AutoSilent.deb 
+mv ./"AutoProfilesManager.deb" ./deb/
+mv ./ASToggle.deb ./deb/ASToggle.deb
+mv ./ASAllowSpecialRingTone.deb ./deb/ASAllowSpecialRingTone.deb
+/sw/bin/dpkg-scanpackages deb /dev/null >Packages
+bzip2 -fk Packages
+cp Packages* Release ~/Sites/repo/
+cp -r deb/* ~/Sites/repo/deb/ 

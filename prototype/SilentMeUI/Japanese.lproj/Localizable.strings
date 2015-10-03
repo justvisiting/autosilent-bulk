@@ -1,0 +1,139 @@
+﻿//Japanese translation
+
+
+/* 
+   Localizable.strings
+   SilentMe
+   Created by god on 19/28/09.
+   Copyright 2009 __MyCompanyName__. All rights reserved.
+ */
+
+"Enable" = "実行";
+"Auto Silent" = "オートサイレント";
+"Manual Settings" = "マニュアル設定";
+"Automatic Mode" = "オートモード";
+"Manual Mode" = "マニュアルモード";
+"Silent Now" = "強制サイレント";
+"Starts" = "開始時刻";
+"Ends" = "終了時刻";
+"SilentProfile" = "サイレントプロフィール";
+"Weekdays" = "平日";
+"Weekday Nights" = "平日夜間";
+"Weekend Nights" = "週末夜間";
+"SilentProfile" = "サイレントプロフィール";
+"Weekends" = "週末";
+"Calender Sync" = "カレンダー同期";
+"Syncs with your Calendar" = "あなたのカレンダーと同期";
+"SilentProfile Settings" = "サイレントプロフィール設定";
+
+//To be finalized. Entry not in other languages
+"iPhone Calender" = "iPhone カレンダー";
+"Currently Disabled" = "現在使用不可";
+"Phone not Silent" =  "サイレント　オフ";
+"Phone in Silent Mode" = "サイレントモード中";
+
+
+//for bypass silent switch
+"Disable/Bypass Silent Switch" = "サイレントスイッチ無効化";
+"Enable iPhone Silent Switch" = "サイレントスイッチ有効化";
+"FixMessage" = "iPhoneのサイレントスイッチを無効にします。サイレントモードのままスイッチが破損した場合などに、すべての着信音を鳴らせるようにできます。もしやめたい場合はいつでも元に戻せます。OKを押すとサイレントスイッチを無効にします。";
+"UnfixMessage" = "サイレントスイッチの機能を元に戻します。続ける場合はOKを押してください。";
+
+//for upload debug logs
+"UploadMessage" = "送信ログにはあなたのカレンダー情報が含まれています。サーバーに情報を送りたくない場合は、キャンセルボタンを押してください。もし送信ログを送る場合、それが完了するまでお待ちください。";
+"Log Upload Status" = "送信ログ アップロード進行状況";
+
+"More" = "その他";
+"Contact Us" = "連絡先";
+"Debug" = "デバッグ";
+
+"Buy" = "購入";
+
+"RingTone" = "着信音";
+"Vibrate Alert" = "バイブレーション";
+"VoiceMail Alert" = "留守電アラート";
+"New Mail" = "新着メール";
+"Calender Alerts" = "カレンダーアラート";
+"New Text Message" = "新着SMSメール";
+"Lock Sounds" = "ロック音";
+"Keyboard Clicks" = "キークリック音";
+"Not Silent" = "サイレント無視";
+"Status :" = "状況 :";
+"Profile Settings" = "プロフィール設定";
+"Send Debug Logs" = "デバッグ情報を送信";
+"Logs sent successfully." = "ログは正常に送信されました.";
+"There was an issue connecting to the remote server. Please try again later." = "リモートサーバーとの接続に問題が発生しました。再度時間を置いて試してみてください。";
+"Follow Us" = "フォローする";
+"Follow our tweets!" = "ツイッターでフォロー!";
+"Mon" = "月";
+"Tue" = "火";
+"Wed" = "水";
+"Thu" = "木";
+"Fri" = "金";
+"Sat" = "土";
+"Sun" = "日";
+
+
+//Next release
+"Profile" = "プロフィール";
+"Everyday" = "毎日";
+" Enter Schedule Name Here" = " スケジュール名をここに入力";
+"iPhone Calendar" = "iPhone カレンダー";
+" Enter Profile Name Here" = " プロフィール名をここに入力";
+"Name" = "名前";
+"None" = "無し";
+"Done" = "完了";
+"Select Repeat Days" = "繰り返し日を選択";
+
+"Sunday" = "日曜日";
+"Monday" = "月曜日";
+"Tuesday" = "火曜日";
+"Wednesday" = "水曜日";
+"Thursday" = "木曜日";
+"Friday" = "金曜日";
+"Saturday" = "土曜日";
+
+"Today at" = "今日";
+"Tomorrow at" = "明日";
+
+"Select Profile" = "プロフィール選択";
+"Create New Schedule" = "新しいスケジュールを作成";
+
+"Delete" = "削除";
+"Cannot delete the profile, at least one schedule is using it" =  "１つ以上のスケジュールが使用中のため、プロフィール削除できません"; 
+"Delete Alert" = "削除失敗"; 
+"Save Alert" = "保存失敗";
+"New Profile" = "新しいプロフィール";
+"Cannot save profile with empty name" = "名前無しではプロフィールを保存できません";
+"A profile with same name already exist, please provide another name" = "すでに同名のプロフィールが存在します。名前を変更して下さい。";
+"Cannot save schedule with empty name" = "名前無しではスケジュールを保存できません";
+"New Schedule" = "新しいスケジュール";
+
+"Cancel" = "キャンセル";
+"Repeats :" = "繰り返し :";
+"Calendars" = "カレンダー";
+"Push Notifications" = "プッシュ通知";
+"Profile :" = "プロフィール :";
+"Profiles" = "プロフィール一覧" ;
+"Usage Information" = "使用方法";
+"CalendarUsageMessage" =  "iPhoneは有効なセットが \"実行中\"になっている場合のみサイレントモードに移ります。有効セットはカレンダー上に現れない場合があります。iPhoneはカレンダー上のすべてのイベントでサイレントモードになります。もし、サイレントモードから外したいイベントがある時は、 '@@@' (コーテーション記号無し)をそのイベント名の最初に入力して下さい。";
+
+"Cannot Save an empty name" = "名前無しでは保存できません";
+"Profile with same name already exists, please enter different name" = "同名のプロフィールが既に存在しています。名前を変更して下さい。";
+"Active Profile :" = "動作中プロフィール :";
+"Occurs in past" = "過去に終了しています";
+
+//Dec 7 updates updates
+"Try AutoSilent, the cool iPhone app" = "素晴らしいiPhoneアプリ、オートサイレントを試してみてください";
+"Hello, I found 'Auto Silent' app on Cydia very useful. I think you will love it too! If you are on iPhone, click here to download the app. Use the following code to buy this cool app at discounted price. Code"="こんにちは。Cydiaですごく便利なアプリ、<a href='http://iphonepackers.info'>'オートサイレント　アプリ' </a> を見つけました。　きっとあなたも気に入ると思います！ もし、iPhoneからならこの<a href='Cydia://package/com.iphonepackers.silentmeLite'> リンク </a> をタップすればダウンロードできます。 次のコードを使えばこの素晴らしいアプリがディスカウント価格で購入できます。 \n Code:";
+"Refer friends and earn money!" = "友人に紹介しよう！";
+"My referral Count" = "あなたの紹介数";
+"Referral Statistics" = "紹介状況";
+"Credits" = "クレジット";
+"Sent Mail" = "送信メール";
+"Remove Status Icon" = "ステータスアイコン非表示にする";
+"Enable Status Icon" = "ステータスアイコンを表示する";
+"Thanks to Kelly Kambe (gca00105@gmail.com) for Japanese translation" = "日本語バージョンはKelly Kambe (gca00105@gmail.com) の協力によるものです";
+"Thank you for downloading Auto Silent. Please buy the app to activate it. It will run in trial mode for 6 days." = "オートサイレントのダウンロードありがとうございます。　アプリのアクティベーションの為には購入が必要です。試用期間は6日間です。";
+"Congratulations. The app has been activated" = "おめでとうございます。オートサイレントは正規認証されました。";
+"Thank You for considering to buy Auto Silent app. The price is USD $3.00 + $0.30 (paypal charges). The payment can be made using any major credit card or Paypal account." = "オートサイレントのご購入検討ありがとうございます。価格はUSD $3.00 + $0.30 (paypal 手数料) となります。 お支払いは主要クレジットカードならびにPaypalで行えます。";

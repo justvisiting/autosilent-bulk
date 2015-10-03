@@ -1,0 +1,59 @@
+#!/bin/bash
+
+chown root /Library/LaunchDaemons/com.iphonepackers.silentmed.plist
+chmod 644 /Library/LaunchDaemons/com.iphonepackers.silentmed.plist
+
+case "$2" in
+"")
+chmod 666 /Applications/SilentMe.app/settings.plist
+;;
+*)
+echo "upgrade case"
+if [ -f /private/var/mobile/Library/SilentMe/profiles.plist ]
+then
+cp -f /private/var/mobile/Library/SilentMe/profiles.plist /Applications/SilentMe.app/configs/
+fi
+
+if [ -f /private/var/mobile/Library/SilentMe/schedule.plist ]
+then
+cp -f /private/var/mobile/Library/SilentMe/schedule.plist /Applications/SilentMe.app/configs/
+fi
+
+if [ -f /private/var/mobile/Library/SilentMe/calendars.plist ]
+then
+cp -f /private/var/mobile/Library/SilentMe/calendars.plist /Applications/SilentMe.app/configs/
+fi
+
+if [ -f /private/var/mobile/Library/SilentMe/daemonsettings.plist ]
+then
+cp -f /private/var/mobile/Library/SilentMe/daemonsettings.plist /Applications/SilentMe.app/daemonsettings.plist
+fi
+
+if [ -f /private/var/mobile/Library/SilentMe/settings.plist ]
+then
+cp -f /private/var/mobile/Library/SilentMe/settings.plist /Applications/SilentMe.app/
+fi
+
+;;
+esac
+
+touch /Applications/SilentMe.app/*
+chown mobile /Applications/SilentMe.app/SilentMe
+chmod 555 /Applications/SilentMe.app/SilentMe
+
+chown mobile /Applications/SilentMe.app/settings.plist
+chmod 666 /Applications/SilentMe.app/settings.plist
+
+chown mobile /Applications/SilentMe.app/configs
+chmod 766 /Applications/SilentMe.app/configs
+    
+chown mobile /Applications/SilentMe.app/configs/*.plist
+chmod 666 /Applications/SilentMe.app/configs/*.plist
+
+
+chmod 666 /Applications/SilentMe.app/daemonsettings.plist
+chmod 755 /Library/MobileSubstrate/DynamicLibraries/AutoSilent.dylib
+
+launchctl load /Library/LaunchDaemons/com.iphonepackers.silentmed.plist
+
+exit 0

@@ -1,0 +1,13 @@
+Package: com.iphonepackers.silentme
+Name: Auto Silent
+Version: 5.2.0.2
+Architecture: iphoneos-arm
+Depends: mobilesubstrate (>= 0.9.3005-1), firmware (>= 4.0)
+Description: For iOS 4.0+. Bypass silent switch. Puts in silent mode automatically during meeting, nights and as configured by user. Syncs with calendar and goes silent during meetings.
+Homepage: http://www.iphonepackers.info/AutoSilent/index.html
+Depiction: http://www.iphonepackers.info/AutoSilent/Depiction/index.html
+Maintainer: iPhone Packers <autosilent@iphonepackers.info>
+Author: iPhone Packers  <autosilent@iphonepackers.info>
+Sponsor: iPhonePackers <http://www.iphonepackers.info/index.htm>
+Section: Utilities
+Conflicts: com.iphonepackers.silentmeLite4, com.iphonepackers.silentmeLite

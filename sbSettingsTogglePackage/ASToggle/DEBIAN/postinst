@@ -1,0 +1,6 @@
+#!/bin/bash
+
+chown mobile /private/var/mobile/Library/SBSettings/Toggles/AS/Toggle.dylib
+chmod 666 /private/var/mobile/Library/SBSettings/Toggles/AS/Toggle.dylib
+
+exit 0

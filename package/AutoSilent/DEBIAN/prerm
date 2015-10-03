@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "unloading backend"
+launchctl unload /Library/LaunchDaemons/com.iphonepackers.silentmed.plist
+
+/Applications/SilentMe.app/SilentMed 1
+case "$1" in
+"remove")
+rm -rf /private/var/mobile/Library/SilentMe
+;;
+*)
+;;
+esac
+
+exit 0

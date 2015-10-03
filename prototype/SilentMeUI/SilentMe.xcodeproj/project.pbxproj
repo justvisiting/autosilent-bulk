@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SilentMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SilentMeAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		320728CB1060AEF70030AC0F /* BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 320728CA1060AEF70030AC0F /* BaseCell.m */; };
+		320728F21060BAA60030AC0F /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = 320728F11060BAA60030AC0F /* Section.m */; };
+		321B27CD10674EC000709109 /* MultipleTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B27CC10674EC000709109 /* MultipleTimeCell.m */; };
+		3285BDA91071DF40003148BF /* ActivationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3285BDA81071DF40003148BF /* ActivationHelper.m */; };
+		32888740106EFD5200D53B42 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3288873F106EFD5200D53B42 /* BaseController.m */; };
+		32888743106F019900D53B42 /* ScheduleTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32888742106F019900D53B42 /* ScheduleTimeViewController.m */; };
+		3289D6DC106FC1AD00A6D5D8 /* ScheduleTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3289D6DB106FC1AD00A6D5D8 /* ScheduleTimeCell.m */; };
+		328A43AF10649EAB00C71719 /* ManualTimeSetterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328A43AE10649EAB00C71719 /* ManualTimeSetterController.m */; };
+		328AB4B6107AFFEE00FD10D2 /* StatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 328AB4B5107AFFEE00FD10D2 /* StatusCell.m */; };
+		328AC3BC10892C6D00221A62 /* CalenderSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 328AC3BB10892C6D00221A62 /* CalenderSchedule.m */; };
+		328D932B1060F7CA001615CB /* SingletonDataSources.m in Sources */ = {isa = PBXBuildFile; fileRef = 328D932A1060F7CA001615CB /* SingletonDataSources.m */; };
+		328E1512107C6F950048A7B4 /* FixSilentSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 328E1511107C6F950048A7B4 /* FixSilentSwitch.m */; };
+		329645B71066C10E00136576 /* OnOffCell.h in Resources */ = {isa = PBXBuildFile; fileRef = 329645B61066C10E00136576 /* OnOffCell.h */; };
+		329645B91066C26200136576 /* OnOffCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 329645B81066C26200136576 /* OnOffCell.m */; };
+		329CFBE8106489160058190A /* ManualTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 329CFBE7106489160058190A /* ManualTimeCell.m */; };
+		32A051B8108593CB00156CE7 /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A051B7108593CB00156CE7 /* Schedule.m */; };
+		32A051EC1085D84400156CE7 /* BaseDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A051EB1085D84400156CE7 /* BaseDictionary.m */; };
+		32A4BA4E1082B69000F4159E /* UploadLogsCell.h in Resources */ = {isa = PBXBuildFile; fileRef = 32A4BA4D1082B69000F4159E /* UploadLogsCell.h */; };
+		32A4BA511082B86B00F4159E /* UploadLogsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A4BA501082B86B00F4159E /* UploadLogsCell.m */; };
+		32A4BA8F1082C8EF00F4159E /* SendEmailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A4BA8E1082C8EF00F4159E /* SendEmailCell.m */; };
+		32ABC91B10657FC40037D602 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ABC91A10657FC40037D602 /* Model.m */; };
+		32AE4CAD105E08A9000922C2 /* MainTableController.h in Resources */ = {isa = PBXBuildFile; fileRef = 32AE4CAC105E08A9000922C2 /* MainTableController.h */; };
+		32AE4CB0105E0903000922C2 /* MainTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AE4CAF105E0903000922C2 /* MainTableController.m */; };
+		32D0C5C310844BC5006334FB /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D0C5C210844BC5006334FB /* Profile.m */; };
+		913B516712CAFB41008AE8BA /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913B516612CAFB41008AE8BA /* EventKit.framework */; };
+		CB65744810CB636A00B81F2A /* ManualSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = CB65744710CB636A00B81F2A /* ManualSchedule.m */; };
+		CB7565FD10CF83F300B73FB8 /* CheckmarkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7565FC10CF83F300B73FB8 /* CheckmarkCell.m */; };
+		CB7900C510ABD0BD00ADB3E7 /* TextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7900C410ABD0BD00ADB3E7 /* TextFieldCell.m */; };
+		CBBC743610AFEFAB00E675D9 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBC743510AFEFAB00E675D9 /* ScheduleViewController.m */; };
+		CBBD8C3B10B7395000B7C45A /* ProfileNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBD8C3A10B7395000B7C45A /* ProfileNameCell.m */; };
+		CBBEB2B510B0D77700035513 /* ScheduleNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBEB2B410B0D77700035513 /* ScheduleNameCell.m */; };
+		CBC3817110AEA0E2004AA8CD /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC3817010AEA0E2004AA8CD /* ProfileViewController.m */; };
+		CBC4011710ACA68500C9B487 /* NameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC4011610ACA68500C9B487 /* NameCell.m */; };
+		CBC54CED10BA3F6F00018345 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC54CE810BA3F6F00018345 /* FMDatabase.m */; };
+		CBC54CEE10BA3F6F00018345 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC54CEA10BA3F6F00018345 /* FMDatabaseAdditions.m */; };
+		CBC54CEF10BA3F6F00018345 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC54CEC10BA3F6F00018345 /* FMResultSet.m */; };
+		CBC5C89010CB48E300210AE8 /* ManualProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC5C88F10CB48E300210AE8 /* ManualProfileCell.m */; };
+		CBC6399A10B8AB71006F066D /* Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC6399910B8AB71006F066D /* Calendar.m */; };
+		CBC639AB10B8CAE9006F066D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC639AA10B8CAE9006F066D /* libsqlite3.0.dylib */; };
+		CBC65D4110BC7610008C3193 /* TextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC65D4010BC7610008C3193 /* TextViewCell.m */; };
+		CBCAA57A10AE49F800242139 /* ProfileAddController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCAA57910AE49F800242139 /* ProfileAddController.m */; };
+		CBCE57BC10ACCDBC009364BE /* ProfileListController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE57BB10ACCDBC009364BE /* ProfileListController.m */; };
+		CBCE588F10ACEA16009364BE /* RepeatListController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE588E10ACEA16009364BE /* RepeatListController.m */; };
+		CBCE58B510ACFDFD009364BE /* SceduleRepeatStringCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE58B410ACFDFD009364BE /* SceduleRepeatStringCell.m */; };
+		CBD22E5810B6740F007EB32B /* TextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD22E5710B6740F007EB32B /* TextFieldController.m */; };
+		CBDD43481131092F00B3AF70 /* Celestial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDD43471131092F00B3AF70 /* Celestial.framework */; };
+		CBE6204A1071BC7C006C0900 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBE620481071BC7C006C0900 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SilentMeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SilentMeAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SilentMeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SilentMeAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SilentMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilentMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		320728C91060AAB70030AC0F /* BaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCell.h; sourceTree = "<group>"; };
+		320728CA1060AEF70030AC0F /* BaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCell.m; sourceTree = "<group>"; };
+		320728ED1060B4CD0030AC0F /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
+		320728F11060BAA60030AC0F /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
+		321B27CA10674D0100709109 /* MultipleTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleTimeCell.h; sourceTree = "<group>"; };
+		321B27CC10674EC000709109 /* MultipleTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleTimeCell.m; sourceTree = "<group>"; };
+		3285BDA71071DDDC003148BF /* ActivationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivationHelper.h; sourceTree = "<group>"; };
+		3285BDA81071DF40003148BF /* ActivationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivationHelper.m; sourceTree = "<group>"; };
+		3288873E106EFCBC00D53B42 /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		3288873F106EFD5200D53B42 /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		32888741106F00E700D53B42 /* ScheduleTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTimeViewController.h; sourceTree = "<group>"; };
+		32888742106F019900D53B42 /* ScheduleTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTimeViewController.m; sourceTree = "<group>"; };
+		3289D6DA106FC0B800A6D5D8 /* ScheduleTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTimeCell.h; sourceTree = "<group>"; };
+		3289D6DB106FC1AD00A6D5D8 /* ScheduleTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTimeCell.m; sourceTree = "<group>"; };
+		328A43AD10649EAB00C71719 /* ManualTimeSetterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualTimeSetterController.h; sourceTree = "<group>"; };
+		328A43AE10649EAB00C71719 /* ManualTimeSetterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualTimeSetterController.m; sourceTree = "<group>"; };
+		328AB4B2107AFEAD00FD10D2 /* StatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusCell.h; sourceTree = "<group>"; };
+		328AB4B5107AFFEE00FD10D2 /* StatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusCell.m; sourceTree = "<group>"; };
+		328AC3BA10892AB600221A62 /* CalenderSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderSchedule.h; sourceTree = "<group>"; };
+		328AC3BB10892C6D00221A62 /* CalenderSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderSchedule.m; sourceTree = "<group>"; };
+		328D932A1060F7CA001615CB /* SingletonDataSources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonDataSources.m; sourceTree = "<group>"; };
+		328D932F1060FB0D001615CB /* SingletonDataSources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonDataSources.h; sourceTree = "<group>"; };
+		328E146F107C6EE00048A7B4 /* FixSilentSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixSilentSwitch.h; sourceTree = "<group>"; };
+		328E1511107C6F950048A7B4 /* FixSilentSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixSilentSwitch.m; sourceTree = "<group>"; };
+		329645B61066C10E00136576 /* OnOffCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnOffCell.h; sourceTree = "<group>"; };
+		329645B81066C26200136576 /* OnOffCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnOffCell.m; sourceTree = "<group>"; };
+		329CFBD31064846B0058190A /* ManualTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualTimeCell.h; sourceTree = "<group>"; };
+		329CFBE7106489160058190A /* ManualTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualTimeCell.m; sourceTree = "<group>"; };
+		32A051B7108593CB00156CE7 /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schedule.m; sourceTree = "<group>"; };
+		32A051E81085D65400156CE7 /* BaseDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDictionary.h; sourceTree = "<group>"; };
+		32A051EB1085D84400156CE7 /* BaseDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDictionary.m; sourceTree = "<group>"; };
+		32A4BA4D1082B69000F4159E /* UploadLogsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadLogsCell.h; sourceTree = "<group>"; };
+		32A4BA501082B86B00F4159E /* UploadLogsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadLogsCell.m; sourceTree = "<group>"; };
+		32A4BA8D1082C69F00F4159E /* SendEmailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendEmailCell.h; sourceTree = "<group>"; };
+		32A4BA8E1082C8EF00F4159E /* SendEmailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendEmailCell.m; sourceTree = "<group>"; };
+		32ABC91610657D8C0037D602 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		32ABC91A10657FC40037D602 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		32ABC91C10657FE30037D602 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		32AE4CAC105E08A9000922C2 /* MainTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableController.h; sourceTree = "<group>"; };
+		32AE4CAF105E0903000922C2 /* MainTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableController.m; sourceTree = "<group>"; };
+		32C248C810857BED006328BD /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SilentMe_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SilentMe_Prefix.pch; sourceTree = "<group>"; };
+		32D0C5BD10844333006334FB /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		32D0C5C210844BC5006334FB /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		913B516612CAFB41008AE8BA /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		CB634D8E10BCDA8D008B0070 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CB65744610CB636A00B81F2A /* ManualSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualSchedule.h; sourceTree = "<group>"; };
+		CB65744710CB636A00B81F2A /* ManualSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualSchedule.m; sourceTree = "<group>"; };
+		CB7565FB10CF83F300B73FB8 /* CheckmarkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckmarkCell.h; sourceTree = "<group>"; };
+		CB7565FC10CF83F300B73FB8 /* CheckmarkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckmarkCell.m; sourceTree = "<group>"; };
+		CB7900C310ABD0BD00ADB3E7 /* TextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldCell.h; sourceTree = "<group>"; };
+		CB7900C410ABD0BD00ADB3E7 /* TextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldCell.m; sourceTree = "<group>"; };
+		CBBC743410AFEFAB00E675D9 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		CBBC743510AFEFAB00E675D9 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		CBBD8C3910B7395000B7C45A /* ProfileNameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileNameCell.h; sourceTree = "<group>"; };
+		CBBD8C3A10B7395000B7C45A /* ProfileNameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileNameCell.m; sourceTree = "<group>"; };
+		CBBEB2B310B0D77700035513 /* ScheduleNameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleNameCell.h; sourceTree = "<group>"; };
+		CBBEB2B410B0D77700035513 /* ScheduleNameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleNameCell.m; sourceTree = "<group>"; };
+		CBC3816F10AEA0E2004AA8CD /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		CBC3817010AEA0E2004AA8CD /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		CBC4011510ACA68500C9B487 /* NameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameCell.h; sourceTree = "<group>"; };
+		CBC4011610ACA68500C9B487 /* NameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameCell.m; sourceTree = "<group>"; };
+		CBC54CE710BA3F6F00018345 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		CBC54CE810BA3F6F00018345 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		CBC54CE910BA3F6F00018345 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		CBC54CEA10BA3F6F00018345 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		CBC54CEB10BA3F6F00018345 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		CBC54CEC10BA3F6F00018345 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		CBC5C88E10CB48E300210AE8 /* ManualProfileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualProfileCell.h; sourceTree = "<group>"; };
+		CBC5C88F10CB48E300210AE8 /* ManualProfileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualProfileCell.m; sourceTree = "<group>"; };
+		CBC6399810B8AB71006F066D /* Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calendar.h; sourceTree = "<group>"; };
+		CBC6399910B8AB71006F066D /* Calendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calendar.m; sourceTree = "<group>"; };
+		CBC639AA10B8CAE9006F066D /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		CBC65D3F10BC7610008C3193 /* TextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewCell.h; sourceTree = "<group>"; };
+		CBC65D4010BC7610008C3193 /* TextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewCell.m; sourceTree = "<group>"; };
+		CBC66BE110D438CA00815062 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CBC66C0610D4439E00815062 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CBC66C0710D443BF00815062 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CBC7999B10DD8F9500C834B9 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CBC7D70C10DEECF3000CC7A4 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = zh_CN.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CBCAA57810AE49F800242139 /* ProfileAddController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileAddController.h; sourceTree = "<group>"; };
+		CBCAA57910AE49F800242139 /* ProfileAddController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileAddController.m; sourceTree = "<group>"; };
+		CBCE57BA10ACCDBC009364BE /* ProfileListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileListController.h; sourceTree = "<group>"; };
+		CBCE57BB10ACCDBC009364BE /* ProfileListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileListController.m; sourceTree = "<group>"; };
+		CBCE588D10ACEA16009364BE /* RepeatListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepeatListController.h; sourceTree = "<group>"; };
+		CBCE588E10ACEA16009364BE /* RepeatListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepeatListController.m; sourceTree = "<group>"; };
+		CBCE58B310ACFDFD009364BE /* SceduleRepeatStringCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceduleRepeatStringCell.h; sourceTree = "<group>"; };
+		CBCE58B410ACFDFD009364BE /* SceduleRepeatStringCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceduleRepeatStringCell.m; sourceTree = "<group>"; };
+		CBD1D2C410C4CC4D00427042 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CBD22E5610B6740F007EB32B /* TextFieldController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldController.h; sourceTree = "<group>"; };
+		CBD22E5710B6740F007EB32B /* TextFieldController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldController.m; sourceTree = "<group>"; };
+		CBD4867F10DD859200E4B822 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CBDD43471131092F00B3AF70 /* Celestial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Celestial.framework; path = System/Library/PrivateFrameworks/Celestial.framework; sourceTree = SDKROOT; };
+		CBE620491071BC7C006C0900 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CBE6204B1071BC9D006C0900 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CBFC194B1133B6E10042B335 /* por */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = por; path = por.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				CBC639AB10B8CAE9006F066D /* libsqlite3.0.dylib in Frameworks */,
+				CBDD43481131092F00B3AF70 /* Celestial.framework in Frameworks */,
+				913B516712CAFB41008AE8BA /* EventKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CBC54CE710BA3F6F00018345 /* FMDatabase.h */,
+				CBC54CE810BA3F6F00018345 /* FMDatabase.m */,
+				CBC54CE910BA3F6F00018345 /* FMDatabaseAdditions.h */,
+				CBC54CEA10BA3F6F00018345 /* FMDatabaseAdditions.m */,
+				CBC54CEB10BA3F6F00018345 /* FMResultSet.h */,
+				CBC54CEC10BA3F6F00018345 /* FMResultSet.m */,
+				CBCE58B310ACFDFD009364BE /* SceduleRepeatStringCell.h */,
+				CBCE58B410ACFDFD009364BE /* SceduleRepeatStringCell.m */,
+				328A43AD10649EAB00C71719 /* ManualTimeSetterController.h */,
+				328A43AE10649EAB00C71719 /* ManualTimeSetterController.m */,
+				329CFBE7106489160058190A /* ManualTimeCell.m */,
+				320728F11060BAA60030AC0F /* Section.m */,
+				1D3623240D0F684500981E51 /* SilentMeAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SilentMeAppDelegate.m */,
+				32AE4CAC105E08A9000922C2 /* MainTableController.h */,
+				32AE4CAF105E0903000922C2 /* MainTableController.m */,
+				320728C91060AAB70030AC0F /* BaseCell.h */,
+				320728CA1060AEF70030AC0F /* BaseCell.m */,
+				320728ED1060B4CD0030AC0F /* Section.h */,
+				328D932A1060F7CA001615CB /* SingletonDataSources.m */,
+				328D932F1060FB0D001615CB /* SingletonDataSources.h */,
+				329CFBD31064846B0058190A /* ManualTimeCell.h */,
+				32ABC91610657D8C0037D602 /* Constants.h */,
+				32ABC91A10657FC40037D602 /* Model.m */,
+				32ABC91C10657FE30037D602 /* Model.h */,
+				329645B61066C10E00136576 /* OnOffCell.h */,
+				329645B81066C26200136576 /* OnOffCell.m */,
+				321B27CA10674D0100709109 /* MultipleTimeCell.h */,
+				321B27CC10674EC000709109 /* MultipleTimeCell.m */,
+				3288873E106EFCBC00D53B42 /* BaseController.h */,
+				3288873F106EFD5200D53B42 /* BaseController.m */,
+				CBCAA57810AE49F800242139 /* ProfileAddController.h */,
+				CBCAA57910AE49F800242139 /* ProfileAddController.m */,
+				32888741106F00E700D53B42 /* ScheduleTimeViewController.h */,
+				32888742106F019900D53B42 /* ScheduleTimeViewController.m */,
+				3289D6DA106FC0B800A6D5D8 /* ScheduleTimeCell.h */,
+				328E1511107C6F950048A7B4 /* FixSilentSwitch.m */,
+				3289D6DB106FC1AD00A6D5D8 /* ScheduleTimeCell.m */,
+				3285BDA71071DDDC003148BF /* ActivationHelper.h */,
+				3285BDA81071DF40003148BF /* ActivationHelper.m */,
+				328AB4B2107AFEAD00FD10D2 /* StatusCell.h */,
+				328AB4B5107AFFEE00FD10D2 /* StatusCell.m */,
+				328E146F107C6EE00048A7B4 /* FixSilentSwitch.h */,
+				32A4BA501082B86B00F4159E /* UploadLogsCell.m */,
+				32A4BA4D1082B69000F4159E /* UploadLogsCell.h */,
+				32A4BA8D1082C69F00F4159E /* SendEmailCell.h */,
+				32A4BA8E1082C8EF00F4159E /* SendEmailCell.m */,
+				32D0C5BD10844333006334FB /* Profile.h */,
+				32D0C5C210844BC5006334FB /* Profile.m */,
+				32C248C810857BED006328BD /* Schedule.h */,
+				32A051B7108593CB00156CE7 /* Schedule.m */,
+				32A051E81085D65400156CE7 /* BaseDictionary.h */,
+				32A051EB1085D84400156CE7 /* BaseDictionary.m */,
+				328AC3BA10892AB600221A62 /* CalenderSchedule.h */,
+				CB7900C310ABD0BD00ADB3E7 /* TextFieldCell.h */,
+				CB7900C410ABD0BD00ADB3E7 /* TextFieldCell.m */,
+				CBC4011510ACA68500C9B487 /* NameCell.h */,
+				CBC4011610ACA68500C9B487 /* NameCell.m */,
+				CBBEB2B310B0D77700035513 /* ScheduleNameCell.h */,
+				CBBEB2B410B0D77700035513 /* ScheduleNameCell.m */,
+				328AC3BB10892C6D00221A62 /* CalenderSchedule.m */,
+				CBCE57BA10ACCDBC009364BE /* ProfileListController.h */,
+				CBCE57BB10ACCDBC009364BE /* ProfileListController.m */,
+				CBCE588D10ACEA16009364BE /* RepeatListController.h */,
+				CBCE588E10ACEA16009364BE /* RepeatListController.m */,
+				CBC3816F10AEA0E2004AA8CD /* ProfileViewController.h */,
+				CBC3817010AEA0E2004AA8CD /* ProfileViewController.m */,
+				CBBC743410AFEFAB00E675D9 /* ScheduleViewController.h */,
+				CBBC743510AFEFAB00E675D9 /* ScheduleViewController.m */,
+				CBD22E5610B6740F007EB32B /* TextFieldController.h */,
+				CBD22E5710B6740F007EB32B /* TextFieldController.m */,
+				CBBD8C3910B7395000B7C45A /* ProfileNameCell.h */,
+				CBBD8C3A10B7395000B7C45A /* ProfileNameCell.m */,
+				CBC6399810B8AB71006F066D /* Calendar.h */,
+				CBC6399910B8AB71006F066D /* Calendar.m */,
+				CBC65D3F10BC7610008C3193 /* TextViewCell.h */,
+				CBC65D4010BC7610008C3193 /* TextViewCell.m */,
+				CBC5C88E10CB48E300210AE8 /* ManualProfileCell.h */,
+				CBC5C88F10CB48E300210AE8 /* ManualProfileCell.m */,
+				CB65744610CB636A00B81F2A /* ManualSchedule.h */,
+				CB65744710CB636A00B81F2A /* ManualSchedule.m */,
+				CB7565FB10CF83F300B73FB8 /* CheckmarkCell.h */,
+				CB7565FC10CF83F300B73FB8 /* CheckmarkCell.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SilentMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SilentMe_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				CBE620481071BC7C006C0900 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBDD43471131092F00B3AF70 /* Celestial.framework */,
+				CBC639AA10B8CAE9006F066D /* libsqlite3.0.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				913B516612CAFB41008AE8BA /* EventKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SilentMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SilentMe" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SilentMe;
+			productName = SilentMe;
+			productReference = 1D6058910D05DD3D006BFB54 /* SilentMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SilentMe" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				it,
+				es,
+				de,
+				nl,
+				fr,
+				zh_TW,
+				zh,
+				ru,
+				jp,
+				zh_CN,
+				por,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SilentMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AE4CAD105E08A9000922C2 /* MainTableController.h in Resources */,
+				329645B71066C10E00136576 /* OnOffCell.h in Resources */,
+				CBE6204A1071BC7C006C0900 /* Localizable.strings in Resources */,
+				32A4BA4E1082B69000F4159E /* UploadLogsCell.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SilentMeAppDelegate.m in Sources */,
+				32AE4CB0105E0903000922C2 /* MainTableController.m in Sources */,
+				320728CB1060AEF70030AC0F /* BaseCell.m in Sources */,
+				320728F21060BAA60030AC0F /* Section.m in Sources */,
+				328D932B1060F7CA001615CB /* SingletonDataSources.m in Sources */,
+				329CFBE8106489160058190A /* ManualTimeCell.m in Sources */,
+				328A43AF10649EAB00C71719 /* ManualTimeSetterController.m in Sources */,
+				32ABC91B10657FC40037D602 /* Model.m in Sources */,
+				329645B91066C26200136576 /* OnOffCell.m in Sources */,
+				321B27CD10674EC000709109 /* MultipleTimeCell.m in Sources */,
+				32888740106EFD5200D53B42 /* BaseController.m in Sources */,
+				32888743106F019900D53B42 /* ScheduleTimeViewController.m in Sources */,
+				3289D6DC106FC1AD00A6D5D8 /* ScheduleTimeCell.m in Sources */,
+				3285BDA91071DF40003148BF /* ActivationHelper.m in Sources */,
+				328AB4B6107AFFEE00FD10D2 /* StatusCell.m in Sources */,
+				328E1512107C6F950048A7B4 /* FixSilentSwitch.m in Sources */,
+				32A4BA511082B86B00F4159E /* UploadLogsCell.m in Sources */,
+				32A4BA8F1082C8EF00F4159E /* SendEmailCell.m in Sources */,
+				32D0C5C310844BC5006334FB /* Profile.m in Sources */,
+				32A051B8108593CB00156CE7 /* Schedule.m in Sources */,
+				32A051EC1085D84400156CE7 /* BaseDictionary.m in Sources */,
+				328AC3BC10892C6D00221A62 /* CalenderSchedule.m in Sources */,
+				CB7900C510ABD0BD00ADB3E7 /* TextFieldCell.m in Sources */,
+				CBC4011710ACA68500C9B487 /* NameCell.m in Sources */,
+				CBCE57BC10ACCDBC009364BE /* ProfileListController.m in Sources */,
+				CBCE588F10ACEA16009364BE /* RepeatListController.m in Sources */,
+				CBCE58B510ACFDFD009364BE /* SceduleRepeatStringCell.m in Sources */,
+				CBCAA57A10AE49F800242139 /* ProfileAddController.m in Sources */,
+				CBC3817110AEA0E2004AA8CD /* ProfileViewController.m in Sources */,
+				CBBC743610AFEFAB00E675D9 /* ScheduleViewController.m in Sources */,
+				CBBEB2B510B0D77700035513 /* ScheduleNameCell.m in Sources */,
+				CBD22E5810B6740F007EB32B /* TextFieldController.m in Sources */,
+				CBBD8C3B10B7395000B7C45A /* ProfileNameCell.m in Sources */,
+				CBC6399A10B8AB71006F066D /* Calendar.m in Sources */,
+				CBC54CED10BA3F6F00018345 /* FMDatabase.m in Sources */,
+				CBC54CEE10BA3F6F00018345 /* FMDatabaseAdditions.m in Sources */,
+				CBC54CEF10BA3F6F00018345 /* FMResultSet.m in Sources */,
+				CBC65D4110BC7610008C3193 /* TextViewCell.m in Sources */,
+				CBC5C89010CB48E300210AE8 /* ManualProfileCell.m in Sources */,
+				CB65744810CB636A00B81F2A /* ManualSchedule.m in Sources */,
+				CB7565FD10CF83F300B73FB8 /* CheckmarkCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBE620481071BC7C006C0900 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBE620491071BC7C006C0900 /* en */,
+				CBE6204B1071BC9D006C0900 /* it */,
+				CB634D8E10BCDA8D008B0070 /* es */,
+				CBD1D2C410C4CC4D00427042 /* de */,
+				CBC66BE110D438CA00815062 /* nl */,
+				CBC66C0610D4439E00815062 /* fr */,
+				CBC66C0710D443BF00815062 /* zh_TW */,
+				CBD4867F10DD859200E4B822 /* ru */,
+				CBC7999B10DD8F9500C834B9 /* Japanese */,
+				CBC7D70C10DEECF3000CC7A4 /* zh_CN */,
+				CBFC194B1133B6E10042B335 /* por */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SilentMe_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = SilentMe;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SilentMe_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = SilentMe;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SilentMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SilentMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ConvertUtil' target in the 'ConvertUtil' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

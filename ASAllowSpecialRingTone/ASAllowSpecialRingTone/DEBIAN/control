@@ -1,0 +1,11 @@
+Package: com.iphonepackers.asAllowSpecialRingTone
+Name: AS Allow Special Ringtone
+Version: 2.1
+Architecture: iphoneos-arm
+Description:Util for Auto Silent app to allow special ringtone when phone is in silent mode. 
+Homepage: http://www.iphonepackers.info/AutoSilent/ASAllow Special RingTone.html
+Depiction: http://www.iphonepackers.info/AutoSilent/Depiction/ASAllow Special RingTone.html
+Maintainer: iPhone Packers <autosilent@iphonepackers.info>
+Author: iPhone Packers  <autosilent@iphonepackers.info>
+Sponsor: iPhonePackers <http://www.iphonepackers.info/index.htm>
+Section: Utilities

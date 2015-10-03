@@ -1,0 +1,134 @@
+﻿
+/*
+    FRENCH TRANSLATION 
+   Localizable.strings
+   SilentMe
+
+   Created by god on 19/28/09.
+   Copyright 2009 __MyCompanyName__. All rights reserved.
+ */
+
+"Enable" = "Activer";
+"Auto Silent" = "Auto Silent";
+"Manual Settings" = "Réglages manuels";
+"Automatic Mode" = "Mode Automatique";
+"Manual Mode" = "Mode Manuel";
+"Silent Now" = "Silencieux";
+"Starts" = "Début";
+"Ends" = "Fin";
+"SilentProfile" = "Profil silencieux";
+"Weekdays" = "Jours de semaine";
+"Weekday Nights" = "Nuits de la semaine";
+"Weekend Nights" = "Nuits du week-end";
+"SilentProfile" = "Profil silencieux";
+"Weekends" = "Week-ends";
+"Calendar Sync" = "Synchro Calendrier";
+"Syncs with your Calendar" = "Synchronise avec votre calendrier";
+"SilentProfile Settings" = "Réglages du Profil silencieux";
+
+"iPhone Calendar" = "Calendrier de l'iPhone";
+"Currently Disabled" = "Actuellement désactivé";
+"Phone not Silent" =  "Téléphone en mode sonnerie";
+"Phone in Silent Mode" = "Téléphone en mode silencieux";
+"Disable/Bypass Silent Switch" = "Désactiver le bouton silencieux";
+"Enable iPhone Silent Switch" = "Activer le bouton silencieux";
+"FixMessage" = "Vous ne serez plus en mesure d'utiliser le commutateur sonnerie/silence de l'iPhone. Si le commutateur est bloqué en mode silencieux, tous les sons seront restaurés. Le comportement normal peut être restauré à tout moment. Appuyez sur OK pour désactiver le commutateur silencieux.";
+"UnfixMessage" = "Cela restituera le comportement original de votre commutateur sonnerie/silence. Appuyez sur OK pour continuer";
+
+"UploadMessage" = "Les journaux de débogage contiennent des informations sur vos calendriers et votre appareil. Si vous ne voulez pas transmettre ces informations, appuyez sur Annuler. Si vous décidez de transmettre les journaux d'utilisation, veuillez patienter pendant le transfert.";
+"Log Upload Status" = "Transmettre les journaux d'utilisation";
+
+"More" = "Plus";
+"Contact Us" = "Contactez-nous";
+"Debug" = "Déboguer";
+
+"Buy" = "Acheter";
+
+"RingTone" = "Sonnerie";
+"Vibrate Alert" = "Vibreur";
+"VoiceMail Alert" = "Nouv. message vocal";
+"New Mail" = "Nouveau courrier";
+"Calender Alerts" = "Alerte de calendrier";
+"New Text Message" = "Nouveau message";
+"Lock Sounds" = "Sons de verrouillage";
+"Keyboard Clicks" = "Clics du clavier";
+"Not Silent" = "En mode sonnerie";
+"Status :" = "Statut :";
+"Profile Settings" = "Réglage du Profil";
+"Send Debug Logs" = "Envoyer les journaux de débogage";
+"Logs sent successfully." = "Les journaux de débogage ont été envoyés avec succès.";
+"There was an issue connecting to the remote server. Please try again later." = "Un problème est survenu lors de la connexion au serveur. Veuillez ré-essayer plus tard.";
+"Follow Us" = "Suivez-nous";
+"Follow our tweets!" = "Suivez nos tweets!";
+"Mon" = "Lun";
+"Tue" = "Mar";
+"Wed" = "Mer";
+"Thu" = "Jeu";
+"Fri" = "Ven";
+"Sat" = "Sam";
+"Sun" = "Dim";
+
+
+"Profile" = "Profil";
+"Everyday" = "Tous les jours";
+" Enter Schedule Name Here" = " Entrez ici le nom du programme";
+"iPhone Calendar" = "Calendrier de l'iPhone";
+" Enter Profile Name Here" = "Entrez ici le nom du profil";
+"Name" = "Nom";
+"None" = "Aucun";
+"Done" = "Terminé";
+"Select Repeat Days" = "Choisissez les jours de répétitions";
+
+"Sunday" = "Dimanche";
+"Monday" = "Lundi";
+"Tuesday" = "Mardi";
+"Wednesday" = "Mercredi";
+"Thursday" = "Jeudi";
+"Friday" = "Vendredi";
+"Saturday" = "Samedi";
+
+"Today at" = "Aujourd'hui à";
+"Tomorrow at" = "Demain à";
+
+"Select Profile" = "Choix du Profil";
+"Create New Schedule" = "Créer un nouveau programme";
+
+"Delete" = "Supprimer";
+"Cannot delete the profile, at least one schedule is using it" =  "Impossible d'effacer le profil, au moins un programme l'utilise"; 
+"Delete Alert" = "Supprimer l'alerte"; 
+"Save Alert" = "Sauver l'alerte";
+"New Profile" = "Nouveau Profil";
+"Cannot save profile with empty name" = "Impossible de sauver un profil avec un nom vide";
+"A profile with same name already exist, please provide another name" = "Un profil avec le même nom existe déjà, veuillez choisir un autre nom";
+"Cannot save schedule with empty name" = "Impossible de sauver un programme avec un nom vide";
+"New Schedule" = "Nouveau programme";
+
+"Cancel" = "Annuler";
+"Repeats :" = "Répétitions :";
+"Calendars" = "Calendriers";
+"Push Notifications" = "Notifications";
+"Profile :" = "Profil :";
+"Profiles" = "Profils" ;
+"Usage Information" = "Informations d'utilisation";
+"CalendarUsageMessage" =  "Le téléphone passera en mode silencieux uniquement pour les événements avec leur disponibilité à \"Occupé\". La disponibilité peut ne pas être présente pour certains calendriers. Dans ce cas, le téléphone passera en mode silencieux pour tous les événements de ce calendrier. Si vous voulez empêcher un événement de passer en mode silencieux, entrez '@@@' (sans guillemets) au début des notes de l'événement.";
+
+"Cannot Save an empty name" = "Impossible de sauver un nom vide";
+"Profile with same name already exists, please enter different name" = "Un profil avec le même nom existe déjà, veuillez choisir un autre nom";
+"Active Profile :" = "Profil actif :";
+"Occurs in past" = "Dans le passé";
+
+//new text
+"Try AutoSilent, the cool iPhone app" = "Essaye AutoSilent, une application iPhone cool";
+"Hello, I found 'Auto Silent' app on Cydia very useful. I think you will love it too! If you are on iPhone, click here to download the app. Use the following code to buy this cool app at discounted price. Code"="Salut, J'ai trouvé l'application <a href='http://iphonepackers.info'>'Auto Silent'</a> sur Cydia très utile. Je pense que tu l'apprécieras également! Si tu es sur l'iPhone, clique <a href='Cydia://package/com.iphonepackers.silentmeLite'>ici</a> pour télécharger l'application. Utilise le code suivant pour obtenir un rabais. Code";
+"Refer friends and earn money!" = "Recommande des amis et gagne de l'argent!";
+"My referral Count" = "Mon nombre de recommandation";
+"Referral Statistics" = "Statistiques de recommandation";
+"Credits" = "Remerciements";
+"Sent Mail" = "Envoyer un mail";
+"Remove Status Icon" = "Enlever l'icône de statut";
+"Enable Status Icon" = "Activer l'icône de statut";
+
+"Thanks to François Bochatay for French translation" = "Merci à François Bochatay pour la traduction française.";
+"Thank you for downloading Auto Silent. Please buy the app to activate it. It will run in trial mode for 6 days." = "Merci d'avoir télécharger Auto Silent. Veuillez acheter l'application pour l'activer. L'application fonctionne en mode évaluation pendant 6 jours.";
+"Congratulations. The app has been activated" = "Félicitations, l'application a été activée.";
+"Thank You for considering to buy Auto Silent app. The price is USD $3.00 + $0.30 (paypal charges). The payment can be made using any major credit card or Paypal account." = "Merci d'envisager l'achat de Auto Silent. Le prix est fixé à $3.00 USD + $0.30 (frais Paypal). Le paiement peut être effectué par carte de crédits ou avec un compte Paypal.";

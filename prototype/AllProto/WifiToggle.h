@@ -1,0 +1,2 @@
+void EnableWifi();
+void DisableWifi();

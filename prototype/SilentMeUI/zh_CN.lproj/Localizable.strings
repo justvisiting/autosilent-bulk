@@ -1,0 +1,129 @@
+﻿/* 
+   Localizable.strings
+   SilentMe
+
+   Created by god on 12/12/09.
+   Copyright 2009 __MyCompanyName__. All rights reserved.
+ */
+
+"Enable" = "开启";
+"Auto Silent" = "自动静音";
+"Manual Settings" = "手动设置";
+"Automatic Mode" = "自动模式";
+"Manual Mode" = "手动模式";
+"Silent Now" = "立即静音";
+"Starts" = "开始";
+"Ends" = "结束";
+"SilentProfile" = "静音设定档";
+"Weekdays" = "工作日";
+"Weekday Nights" = "工作日晚上";
+"Weekend Nights" = "周末晚上";
+"SilentProfile" = "静音设定档";
+"Weekends" = "周末";
+"Calender Sync" = "与日历同步";
+"Syncs with your Calendar" = "与日历同步";
+"SilentProfile Settings" = "静音档设置";
+
+"iPhone Calender" = "iPhone日历";
+"Currently Disabled" = "现在已关闭";
+"Phone not Silent" =  "手机非静音";
+"Phone in Silent Mode" = "手机静音中";
+"Disable/Bypass Silent Switch" = "忽略手机静音开关";
+"Enable iPhone Silent Switch" = "打开手机静音开关";
+"FixMessage" = "你将不再能够使用手机的静音开关。如果手机的静音开关已经在静音状态下损坏，所有的声音都会恢复。如果你不喜欢本功能，可以随时修改回去。点OK来忽略手机静音开关";
+"UnfixMessage" = "这将还原手机静音开关的功能，点OK继续";
+
+"UploadMessage" = "数据包含日历和设备信息。如果您不想上传这些数据，请取消；如果您希望上传，请等待直到上传完成。";
+"Log Upload Status" = "上传状态";
+
+"More" = "更多";
+"Contact Us" = "联系我们";
+"Debug" = "调试";
+
+"Buy" = "购买";
+
+"RingTone" = "响铃";
+"Vibrate Alert" = "振动";
+"VoiceMail Alert" = "语音邮件提醒";
+"New Mail" = "新邮件";
+"Calender Alerts" = "日历提醒";
+"New Text Message" = "新短信";
+"Lock Sounds" = "锁定声音";
+"Keyboard Clicks" = "单击";
+"Not Silent" = "打开声音";
+"Status :" = "状态 :";
+"Profile Settings" = "设定档设置";
+"Send Debug Logs" = "发送调试数据";
+"Logs sent successfully." = "数据发送成功";
+"There was an issue connecting to the remote server. Please try again later." = "与远程服务器的连接出现了问题，请稍后再试";
+"Follow Us" = "跟随我们";
+"Follow our tweets!" = "查看我们的tweets!";
+"Mon" = "周一";
+"Tue" = "周二";
+"Wed" = "周三";
+"Thu" = "周四";
+"Fri" = "周五";
+"Sat" = "周六";
+"Sun" = "周日";
+
+
+"Profile" = "设定档";
+"Everyday" = "每天";
+" Enter Schedule Name Here" = " 在此输入计划的名称";
+"iPhone Calendar" = "iPhone 日历";
+" Enter Profile Name Here" = " 在此输入设定档的名称";
+"Name" = "名称";
+"None" = "无";
+"Done" = "完成";
+"Select Repeat Days" = "选择需要重复的天数";
+
+"Sunday" = "星期日";
+"Monday" = "星期一";
+"Tuesday" = "星期二";
+"Wednesday" = "星期三";
+"Thursday" = "星期四";
+"Friday" = "星期五";
+"Saturday" = "星期六";
+
+"Today at" = "今天在"; 
+"Tomorrow at" = "明天在"; 
+
+"Select Profile" = "选择设定档";
+
+"Delete" = "删除";
+"Cannot delete the profile, at least one schedule is using it" =  "无法删除设定档，有一个计划正在使用它";
+"Delete Alert" = "删除提醒";
+"Save Alert" = "保存提醒";
+"New Profile" = "新设定档";
+"Cannot save profile with empty name" = "设定档名称为空，无法保存";
+"A profile with same name already exist, please provide another name" = "设定档名称重复，请重新输入";
+"Cannot save schedule with empty name" = "计划名称为空，无法保存";
+"New Schedule" = "新计划";
+
+"Cancel" = "取消";
+"Repeats :" = "重复";
+"Calendars" = "日历";
+"Push Notifications" = "上传通知";
+"Profile :" = "设定档 :";
+"Profiles" = "设定档" ;
+"Usage Information" = "使用信息";
+"CalendarUsageMessage" =  "手机只会在被标记了繁忙的日历项目时间段静音。有些日历项目没有相应的繁忙选项，手机将在这些时间段中也静音；如果你想排除一些这样的日历项目时间段，请在日历项目的前面加3个@符号";
+
+"Cannot Save an empty name" = "名字为空，无法保存";
+"Profile with same name already exists, please enter different name" = "设定档名称重复，请重新输入";
+"Active Profile :" = "使用中的设定档";
+"Occurs in past" = "以前的";
+"Create New Schedule" = "添加计划";
+
+//new codes
+
+"Try AutoSilent, the cool iPhone app" = "试下Auto Silent(自动静音)，很酷的软件";
+"Refer friends and earn money!" = "通知你的朋友来得到注册码";
+"My referral Count" = "我通知的次数";
+"Referral Statistics" = "通知统计";
+"Credits" = "贡献人员";
+"Sent Mail" = "发送邮件";
+"Remove Status Icon" = "关闭状态栏图标";
+"Enable Status Icon" = "开启状态栏图标";
+
+"Hello, I found 'Auto Silent' app on Cydia very useful. I think you will love it too! If you are on iPhone, click here to download the app. Use the following code to buy this cool app at discounted price. Code"= "你好，我觉得Cydia上的 <a href='http://iphonepackers.info'>Auto Silent(自动静音)</a>非常有用，我想你也会喜欢的。如果你在iphone上看到这条消息，点击 <a href='Cydia://package/com.iphonepackers.silentmeLite'>这里</a> 来下载软件。使用下面的这个代码还可以在购买时打折哦！";

@@ -1,0 +1,130 @@
+/* 
+   Localizable.strings
+   SilentMe
+
+   Created by god on 12/12/09.
+   Copyright 2009 __MyCompanyName__. All rights reserved.
+   Traditional Chinese translated by Jerry "Bluefox" Lee
+ */
+
+"Enable" = "開啓";
+"Auto Silent" = "自動靜音";
+"Manual Settings" = "手動設定";
+"Automatic Mode" = "自動模式";
+"Manual Mode" = "手動模式";
+"Silent Now" = "立即靜音";
+"Starts" = "開始";
+"Ends" = "結束";
+"SilentProfile" = "靜音設定檔";
+"Weekdays" = "工作日";
+"Weekday Nights" = "工作日晚上";
+"Weekend Nights" = "週末晚上";
+"SilentProfile" = "靜音設定檔";
+"Weekends" = "週末";
+"Calender Sync" = "與行事曆同步";
+"Syncs with your Calendar" = "與行事曆同步";
+"SilentProfile Settings" = "靜音檔設置";
+
+"iPhone Calender" = "iPhone 行事曆";
+"Currently Disabled" = "目前關閉";
+"Phone not Silent" =  "手機非靜音";
+"Phone in Silent Mode" = "手機靜音中";
+"Disable/Bypass Silent Switch" = "忽略手機靜音開關";
+"Enable iPhone Silent Switch" = "開啟手機靜音開關";
+"FixMessage" = "您將無法再使用 iPhone 的靜音開關，假如於靜音模式下切換開關，將會回復所有聲音。假如您不喜歡此功能，可以隨時修改回原設定。點選「Ok」以忽略靜音開關";
+"UnfixMessage" = "此將回復手機靜音開關的功能，點選「Ok」以繼續";
+
+"UploadMessage" = "記錄檔將包含您的行事曆、裝置資訊，假如您不希望上傳此些資訊，點選「Cancel」。假如您點選上傳記錄檔，請稍候等待上傳完成。";
+"Log Upload Status" = "記錄檔上傳狀態";
+
+"More" = "更多功能";
+"Contact Us" = "聯絡我們";
+"Debug" = "除錯";
+
+"Buy" = "購買";
+
+"RingTone" = "響鈴";
+"Vibrate Alert" = "振動";
+"VoiceMail Alert" = "收到新留言";
+"New Mail" = "收到新郵件";
+"Calender Alerts" = "行事曆提示";
+"New Text Message" = "收到新訊息";
+"Lock Sounds" = "鎖定聲";
+"Keyboard Clicks" = "按鍵聲";
+"Not Silent" = "無靜音";
+"Status :" = "狀態：";
+"Profile Settings" = "設定檔設定";
+"Send Debug Logs" = "傳送除錯記錄檔";
+"Logs sent successfully." = "記錄檔傳送成功";
+"There was an issue connecting to the remote server. Please try again later." = "與伺服器連線出了問題，請稍候再試。";
+"Follow Us" = "跟隨我們";
+"Follow our tweets!" = "跟隨我們的 Tweets！";
+"Mon" = "週一";
+"Tue" = "週二";
+"Wed" = "週三";
+"Thu" = "週四";
+"Fri" = "週五";
+"Sat" = "週六";
+"Sun" = "週日";
+
+
+"Profile" = "設定檔";
+"Everyday" = "每天";
+" Enter Schedule Name Here" = " 輸入規劃名稱";
+"iPhone Calendar" = "iPhone 行事曆";
+" Enter Profile Name Here" = " 輸入設定檔名稱";
+"Name" = "名稱";
+"None" = "無";
+"Done" = "完成";
+"Select Repeat Days" = "選擇重復天數";
+
+"Sunday" = "星期日";
+"Monday" = "星期一";
+"Tuesday" = "星期二";
+"Wednesday" = "星期三";
+"Thursday" = "星期四";
+"Friday" = "星期五";
+"Saturday" = "星期六";
+
+"Today at" = "今天"; 
+"Tomorrow at" = "明天"; 
+
+"Select Profile" = "選擇設定檔";
+
+"Delete" = "刪除";
+"Cannot delete the profile, at least one schedule is using it" =  "無法刪除設定檔，有一個規劃正在使用該檔案";
+"Delete Alert" = "刪除提示";
+"Save Alert" = "儲存提示";
+"New Profile" = "新設定檔";
+"Cannot save profile with empty name" = "無法儲存名稱為空的設定檔";
+"A profile with same name already exist, please provide another name" = "設定檔名稱重復，請重新輸入";
+"Cannot save schedule with empty name" = "無法儲存名稱為空的規劃";
+"New Schedule" = "新規劃";
+
+"Cancel" = "取消";
+"Repeats :" = "重復";
+"Calendars" = "行事曆";
+"Push Notifications" = "通知";
+"Profile :" = "設定檔：";
+"Profiles" = "設定檔" ;
+"Usage Information" = "用量資訊";
+"CalendarUsageMessage" =  "手機會在事件標示為「忙碌」的狀況下、切換為靜音模式。有些行事曆並沒有是否忙碌的選項，此時手機將會於該行事曆中所有事件皆切換為靜音狀態。假如您想要將某些事件排除於自動靜音之外，請於該事件附註欄位開頭輸「@@@」即可";
+
+"Cannot Save an empty name" = "無法儲存，名稱為空白";
+"Profile with same name already exists, please enter different name" = "設定檔名稱重復，請重新輸入";
+"Active Profile :" = "使用中的設定檔：";
+"Occurs in past" = "已結束";
+"Create New Schedule" = "增加規劃";
+
+//new codes
+
+"Try AutoSilent, the cool iPhone app" = "試試看 Auto Silent （行事曆自動靜音）吧，很不賴的 iPhone 軟體";
+"Refer friends and earn money!" = "推薦朋友以贏得註冊碼";
+"My referral Count" = "我的推薦次數";
+"Referral Statistics" = "推薦統計";
+"Credits" = "製作人員";
+"Sent Mail" = "傳送郵件";
+"Remove Status Icon" = "關閉狀態列圖示";
+"Enable Status Icon" = "開啓狀態列圖示";
+
+"Hello, I found 'Auto Silent' app on Cydia very useful. I think you will love it too! If you are on iPhone, click here to download the app. Use the following code to buy this cool app at discounted price. Code"= "嗨，我在 Cydia 上發現<a href='http://iphonepackers.info'>「Auto Silent」</a>行事曆自動靜音，這套軟體非常好用。我猜想你也應該會喜歡這軟體。假如你也使用 iPhone，點選<a href='Cydia://package/com.iphonepackers.silentmeLite'>此處</a>以下載軟體。使用以下推薦碼購買軟體則可以獲得折扣。\n 折扣碼：";

@@ -1,0 +1,9 @@
+Origin: iPhone packers
+Label: iPhone packers
+Suite: stable
+Version: 1.0
+Codename: silophone
+Architectures: iphoneos-arm
+Components: main
+Description: iphone app
+Icon: http://www.iphonepackers.info/repo.png

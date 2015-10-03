@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppEnabled</key>
+	<true/>
+	<key>BypassSilentSwitch</key>
+	<true/>
+	<key>CalAlertEnabled</key>
+	<false/>
+	<key>CalSyncEnabled</key>
+	<true/>
+	<key>CallEnabled</key>
+	<false/>
+	<key>KeyboardSoundEnabled</key>
+	<false/>
+	<key>LockUnLockSoundEnabled</key>
+	<false/>
+	<key>LoggingEnabled</key>
+	<true/>
+	<key>NewMailEnabled</key>
+	<false/>
+	<key>SmsAlertEnabled</key>
+	<false/>
+	<key>VibrateEnabled</key>
+	<true/>
+	<key>VoiceMailenabled</key>
+	<false/>
+	<key>WeekdayNightEnabled</key>
+	<true/>
+	<key>WeekdayQuiteEndTime</key>
+	<integer>21600</integer>
+	<key>WeekdayQuiteStartTime</key>
+	<integer>79200</integer>
+	<key>WeekendNightEnabled</key>
+	<true/>
+	<key>WeekendQuiteEndTime</key>
+	<integer>28800</integer>
+	<key>WeekendQuiteStartTime</key>
+	<integer>0</integer>
+</dict>
+</plist>

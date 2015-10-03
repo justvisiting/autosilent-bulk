@@ -1,0 +1,128 @@
+﻿/* 
+   Localizable.strings
+   SilentMe
+
+   Created by god on 9/28/09.
+   Copyright 2009 iPhone Packers. All rights reserved.
+ */
+
+"Enable" = "Activo";
+"Auto Silent" = "Auto Silent";
+"Manual Settings" = "Configuración Manual";
+"Automatic Mode" = "Modo Automático";
+"Manual Mode" = "Modo Manual";
+"Silent Now" = "Silenciar Ahora";
+"Starts" = "Inicio";
+"Ends" = "Fin";
+"SilentProfile" = "Perfil en Silencio";
+"Weekdays" = "A Diario";
+"Weekday Nights" = "Noches Diario";
+"Weekend Nights" = "Noches Fin de Semana";
+"SilentProfile" = "Perfil Silencioso";
+"Weekends" = "Fines de semana";
+"Calender Sync" = "Sincroniza Calendario";
+"Syncs with your Calendar" = "Sincroniza con el Calendario";
+"SilentProfile Settings" = "Configurar Perfil Silencio";
+
+//To be finalized. Entry not in other languages
+"iPhone Calender" = "Calendario Iphone";
+"Currently Disabled" = "Desactivado";
+"Phone not Silent" =  "Telefono sin Silenciar";
+"Phone in Silent Mode" = "Telefono en Silencio";
+"Disable/Bypass Silent Switch" = "Desactivar Interruptor de Silencio";
+"Enable iPhone Silent Switch" = "Activar Interruptor de Silencio";
+"FixMessage" = "No podrá usar el Interruptor de Silencio. Si el cambio se desactiva en modo silencio todos los sonidos serán restaurados. Si no le gusta el cambio puede ser revertido en cualquier momento. Presione OK para Desactivar el cambio a silencio";
+"UnfixMessage" = "Se restaurará el comportamiento habitual del Interruptor de Silencio.Presione OK para continuar";
+
+"UploadMessage" = "Los registros contienen calendario(s) e información sobre el dispositivo. Si no desea enviarlo al servidor, seleccione Cancelar. Si selecciona enviar los registros,por favor espere a que la operación finalice";
+"Log Upload Status" = "Log Upload Status";
+
+"More" = "Mas";
+"Contact Us" = "Contactanos";
+"Debug" = "Depurar";
+
+"Buy" = "Comprar";
+"RingTone" = "Tono de Llamada";
+"Vibrate Alert" = "Vibración";
+"VoiceMail Alert" = "Mensaje de voz";
+"New Mail" = "Correo nuevo";
+"Calender Alerts" = "Alertas Calendario";
+"New Text Message" = "Mensaje de Texto";
+"Lock Sounds" = "Bloqueo";
+"Keyboard Clicks" = "Clics de teclado";
+"Not Silent" = "Sin Silenciar";
+//"Status :" = "Estado :";
+"Profile Settings" = "Configuración del Perfil";
+"Send Debug Logs" = "Enviar registros de depuración";
+"Logs sent successfully." = "Registros de Depuración Enviados Correctamente.";
+"There was an issue connecting to the remote server. Please try again later." = "Se produjo un error en la conexión con el servidor remoto. Por favor inténtelo más tarde.";
+"Follow Us" = "Siguenos";
+"Follow our tweets!" = "¡Sigue nuestros tweets!";
+
+"Mon"= "Lun";
+"Tue"= "Mar";
+"Wed"= "Mie";
+"Thu"= "Jue";
+"Fri"= "Vie";
+"Sat"= "Sab";
+"Sun"= "Dom";
+
+//New strings
+"Profile" = "Perfil";
+"Everyday" = "Todos los Dias";
+" Enter Schedule Name Here" = "Introduzca Nombre Planificación";
+"iPhone Calendar" = "Calendaro iPhone";
+" Enter Profile Name Here" = "Introduzca Nombre Perfil";
+"Name" = "Nombre";
+"None" = "Ninguno";
+"Done" = "Hecho";
+"Select Repeat Days" = "Dias a Repetir";
+
+"Sunday" = "Domingo";
+"Monday" = "Lunes";
+"Tuesday" = "Martes";
+"Wednesday" = "Miércoles";
+"Thursday" = "Jueves";
+"Friday" = "Viernes";
+"Saturday" = "Sábado";
+
+"Today at" = "Hoy a las";
+"Tomorrow at" = "Mañana a las";
+
+"Select Profile" = "Seleccionar Perfil";
+"Create New Schedule" = "Crear Nueva Planificación";
+
+"Delete" = "Borrar";
+"Cannot delete the profile, at least one schedule is using it" =  "No se puede borrar el perfil, al menos una planicación lo está usando"; 
+"Delete Alert" = "Borrar Alerta"; 
+"Save Alert" = "Guardar Alerta";
+"New Profile" = "Nuevo Perfil";
+"Cannot save profile with empty name" = "Imposible Guardar Perfil sin Nombre";
+"A profile with same name already exist, please provide another name" = "Ya existe un perfil con ese nombre, por favor elija otro";
+"Cannot save schedule with empty name" = "Imposible Guardar Planificación sin Nombre";
+"New Schedule" = "Nueva Planificación";
+
+"Cancel" = "Cancelar";
+"Repeats :" = "Repeticiones :";
+"Calendars" = "Calendarios";
+"Push Notifications" = "Notificaciones Push";
+"Profile :" = "Perfil :";
+"Profiles" = "Perfiles" ;
+"Usage Information" = "Información de Uso";
+"CalendarUsageMessage" = "El telefono se silenciará únicamente en los eventos en los que la disponibilidad sea \"Ocupado\". Las opciones de disponibilidad pueden no estar presentes en ciertos calendarios. El telefono se silenciará para todos los eventos de estos calendarios. Si quiere excluir algun evento de silenciar, por favor introduzca '@@@' (sin comillas) al comienzo en las notas para ese evento";
+
+"Cannot Save an empty name" = "Imposible Guardar Nombre Vacio";
+"Profile with same name already exists, please enter different name" = "Ya existe un perfil con ese nombre, por favor elija otro";
+"Active Profile :" = "Perfil Activo :";
+"Occurs in past" = "Ocurrencias en el pasado";
+
+//Dec 7 updates updates
+"Try AutoSilent, the cool iPhone app" = "Prueba AutoSilent, la fantástica app para iPhone";
+"Refer friends and earn money!" = "Invita Amigos y Gana Dinero!";
+"My referral Count" = "Mi Cuenta para Referencias";
+"Referral Statistics" = "Estadísticas de Referencias";
+"Credits" = "Créditos";
+"Sent Mail" = "Enviar Correo";
+"Remove Status Icon" = "Desactivar Icono Estado";
+"Enable Status Icon" = "Activar Icono Estado";
+"Hello, I found 'Auto Silent' app on Cydia very useful. I think you will love it too! If you are on iPhone, click here to download the app. Use the following code to buy this cool app at discounted price. Code"="Hola, he descubierto <a href='http://iphonepackers.info'>'Auto Silent'</a> en Cydia, es realmente útil y creo que a ti también te encantará! Si estás en tu iPhone ahora, <a href='Cydia://package/com.iphonepackers.silentmeLite'>toca aquí para </a>descargar la aplicación. Usa este código para conseguir esta estupenda aplicación a un precio rebajado. Code:";

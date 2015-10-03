@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1</key>
+	<dict>
+		<key>CalAlertEnabled</key>
+		<false/>
+		<key>CallEnabled</key>
+		<false/>
+		<key>KeyboardSoundEnabled</key>
+		<false/>
+		<key>LockUnLockSoundEnabled</key>
+		<false/>
+		<key>Name</key>
+		<string>Silent</string>
+		<key>NewMailEnabled</key>
+		<false/>
+		<key>SmsAlertEnabled</key>
+		<false/>
+		<key>VibrateEnabled</key>
+		<true/>
+		<key>VoiceMailenabled</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

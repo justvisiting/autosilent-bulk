@@ -1,0 +1,36 @@
+/* (c) Copyright 2007 Garbrand van der Molen. All Rights Reserved. */
+
+#mb .screencast {
+	background: url(../_images/screencastBg.jpg) top left no-repeat;
+	clear: both;
+	height: 350px;
+
+	float: right;
+	/* margin: -10px -10px 0 -150px; */
+	overflow: auto;
+}
+
+#mb .sc {
+	background: url(../_images/screencastBg.jpg) top left no-repeat;
+	margin-top: -20 !important;
+	margin:-20px -10px 40px -150px;
+	padding: 0px;
+	color: #fff;
+}
+* HTML #mb .sc {
+	margin-top: -30px;
+}
+#mb .sc OBJECT {
+	z-index: 0;
+	/*top: -22px;
+	position: relative;
+	margin-top: 22px;*/
+}
+
+#mb IMG.screenshot {
+	margin: 0 auto;
+	display: block;
+	border: 1px solid #CCC;
+	padding: 10px 80px 0;
+	margin-bottom: 10px;
+}
